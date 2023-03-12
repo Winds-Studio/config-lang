@@ -1,0 +1,123 @@
+#########################################################################################
+#                                                                                       #
+# UltimateAutoRestart, a free resource by Norska @ https://norska.dev                   #
+#                                                                                       #
+# Wiki: https://norska.dev/docs/welcome/                                                #
+# Support: https://norska.dev/discord/                                                  #
+#                                                                                       #
+# You are editing the config.yml file of UltimateAutoRestart.                           #
+#                                                                                       #
+#########################################################################################
+
+#########################################################################################
+#                                                                                       #
+# NOTE: PLEASE READ BEFORE CONFIGURING!                                                 #
+#                                                                                       #
+# Please consult the wiki for any questions regarding the setup of this plugin, if you  #
+# still require help, open a ticket on my discord server!                               #
+#                                                                                       #
+#########################################################################################
+
+# !!! IN ORDER TO RUN PROXY COMMANDS (Bungee or forks, and Velocity) YOU MUST INSTALL A SEPARATE
+# PLUGIN ON YOUR PROXY. PLEASE REFER TO UAR'S RESOURCE PAGE TO FIND THE CORRECT DOWNLOAD LINKS !!!
+
+##################################
+#                                #
+#         RESTART ENTRIES        #
+#                                #
+##################################
+
+settings:
+   # Note: Visit the wiki for more information regarding all command types.
+   # Note: Available command types for restartCommands -> normal, time, proxy, proxydelay
+   # Note: Available days for day-specific commands -> [MONDAY], [TUESDAY], [WEDNESDAY], [THURSDAY], [FRIDAY], [SATURDAY], [SUNDAY] **READ** The day tag must come after the command type (except normal)
+   restartCommands:
+   #- '[proxy:5] command to execute via your proxy 5 seconds before restart'
+   #- '[time:15] command to execute 15 seconds before restart'
+   #- '[proxydelay:30] command to be scheduled on your proxy and run in 30 seconds. PROXYDELAY COMMANDS RUN WHEN THE RESTART INTERVAL HITS 0.'
+   #- '[proxydelay:15] alert The server is back up, join!'
+   #- '[time:10] [MONDAY] command to execute 10 seconds before restart and only on mondays'
+   #- '[FRIDAY] command to execute on restart and only on fridays'
+   #- '[proxy] test'
+   - 'save-all'
+   - 'stop'
+   
+   # Note: Visit the wiki for more information regarding all command types.
+   # Note: Available command types for restartCommands -> time, proxy
+   # Note: Available days for day-specific commands -> [MONDAY], [TUESDAY], [WEDNESDAY], [THURSDAY], [FRIDAY], [SATURDAY], [SUNDAY]
+   commandsAfterReboot:
+   #- '[proxy:30] command to be executed via bungee 30 seconds after server startup'
+   # - '[time:15] [WEDNESDAY] broadcast Its wednesday my dudes!'
+   
+   # Note: To restart twice on the same day, add another entry with the same day name but different time.
+   # Note: Valid ranges -> Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday and 00;00 to 24;00.
+   # Note: You can also use "Daily" instead of a specific day to restart daily at a set hour. Example: "Daily;05;00", will restart daily at 5 AM.
+   restarts:
+   - 'Daily;05;00'
+   
+   # Note: Configure the messages in UltimateAutoRestart's messages.yml file!
+   messageAtIntervals:
+   - '1800'
+   - '600'
+   - '60'
+   - '30'
+   - '5'
+   - '4'
+   - '3'
+   - '2'
+   - '1'
+   
+   # Note: Configure the sounds in UltimateAutoRestart's sounds.yml file!
+   soundAtIntervals:
+   - '1800'
+   - '600'
+   - '60'
+   - '30'
+   - '5'
+   - '4'
+   - '3'
+   - '2'
+   - '1'
+   
+   # Note: Instead of the interval, the below will show if the restart timer is not running!
+   unscheduledIntervalValue: '&f&lN/A'
+
+##################################
+#                                #
+#         RESTART DELAY          #
+#                                #
+##################################
+
+# Note: Push back the restart if x players are currently on the server!
+delayRestart:
+   enabled: false
+   checkSecondsBeforeRestart: 30
+   minimumPlayers: 1
+   delayBySeconds: 600
+   
+##################################
+#                                #
+#    VALUE DISPLAY SETTINGS      #
+#                                #
+##################################    
+
+# Note: Configure how the interval shows up!   
+format:
+   seconds: '秒'
+   second: '秒'
+   minutes: '分钟 '
+   minute: '分钟 '
+   hours: '小时 '
+   hour: '小时 '
+   days: '天 '
+   day: '天 '
+   splitter: '和 '
+
+##################################
+#                                #
+#    UPDATE NOTIFIER SETTINGS    #
+#                                #
+################################## 
+
+updates:
+   notifications: false
