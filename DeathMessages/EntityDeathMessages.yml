@@ -42,31 +42,31 @@ Entities:
   # Below is an example of how this section is setup. You can use any death-type like in PlayerDeathMessages.yml
   wolf:
     Tamed:
-      - "%killer% 杀死了 %owner% 的 %entity%"
+      - "&4%killer%&3杀死了 %owner% 的 %entity%"
     Projectile-Arrow:
-      - "%killer% 360'd Y Y'd a poor little doggy using %weapon%"
+      - "&4%killer%&3 360'd Y Y'd a poor little doggy using %weapon%"
     Weapon:
-      - "%killer% 使用 %weapon% 悄悄把一只狗干掉了"
+      - "&4%killer%&3使用 %weapon% 悄悄把一只狗从人间蒸发了"
     Melee:
-      - "%killer% 随机杀害了一只狗"
+      - "&4%killer%&3随机送一只狗上了西天"
     Void:
-      - "%killer% 随机挑选了一只狗推进了虚空"
+      - "&4%killer%&3随机挑选了一只狗推进了虚空"
     TNT:
-      - "%killer% 炸飞了一只狗!"
+      - "&4%killer%&3尝试将一只狗发射出去!"
     Respawn-Anchor:
-      - "%killer% 用重生锚炸飞了一只狗"
+      - "&4%killer%&3尝试用重生锚将一只狗发射出去"
   enderdragon:
     Projectile-Arrow:
-      - "%killer% 360'd Y Y'd the &6&lEnder Dragon &cusing %weapon%"
+      - "&4%killer% &3360'd Y Y'd the &6&lEnder Dragon &cusing %weapon%"
     Melee:
-      - "%killer% 征服了末影龙!"
+      - "&4%killer%&3征服了末影龙!"
 
 #Mythic-Mob Entities https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/
 Mythic-Mobs-Entities:
   SkeletalMinion:
     Melee:
-      - '%killer% killed skele boss %entity_display% with their bare hands'
+      - '&4%killer% &3killed skele boss %entity_display% with their bare hands'
     Weapon:
-      - '%killer% destroyed the boss mob %entity_display% with %weapon%'
+      - '&4%killer% &3destroyed the boss mob %entity_display% with %weapon%'
     TNT:
-      - '%killer% blew up the boss mob %entity_display% with TNT'
+      - '&4%killer% &3blew up the boss mob %entity_display% with TNT'
