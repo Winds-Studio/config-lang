@@ -1,4 +1,5 @@
 # DeathMessages by Joshb_ (Original DeathMessagesPrime by CosmoConsole)
+# Chinese translation by Dreeam (Combined with original translation from MCBBS)
 # All configs from this plugin has an auto updater. Meaning if I add a value in the config from updates,
 # the value will be automatically added without regenerating the configs.
 #
@@ -65,8 +66,8 @@ Entities:
 Mythic-Mobs-Entities:
   SkeletalMinion:
     Melee:
-      - '&4%killer% &3killed skele boss %entity_display% with their bare hands'
+      - '&4%killer%&3赤手空拳地将%entity_display%置于死地'
     Weapon:
-      - '&4%killer% &3destroyed the boss mob %entity_display% with %weapon%'
+      - '&4%killer%&3使用%weapon%轻易地战胜了%entity_display%'
     TNT:
-      - '&4%killer% &3blew up the boss mob %entity_display% with TNT'
+      - '&4%killer%&3使用TNT将%entity_display%传送到了另一个空间'

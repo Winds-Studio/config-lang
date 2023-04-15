@@ -1,4 +1,5 @@
 # DeathMessages by Joshb_ (Original DeathMessagesPrime by CosmoConsole)
+# Chinese translation by Dreeam (Combined with original translation from MCBBS)
 # All configs from this plugin has an auto updater. Meaning if I add a value in the config from updates,
 # the value will be automatically added without regenerating the configs.
 #
@@ -69,30 +70,30 @@ Basic-Mode:
   Enabled: false
   Solo:
     Projectile-Arrow:
-      - "&4%player%&3 was shot by a %killer% using %weapon%"
+      - "&4%player%&3被%killer%用%weapon%射成了筛子"
     Explosion:
-      - "&4%player%&3 was blown up by a %killer%"
+      - "&4%player%&3被%killer%发射到了太空"
     Magic:
-      - "&4%player%&3 was killed by a %killer% using magic"
+      - "&4%player%&3被%killer%用魔法传送到了另一个空间"
     Weapon:
-      - "&4%player%&3 was slain by a %killer% using %weapon%"
+      - "&3%killer%用%weapon%把&4%player%&3砍成两截"
     Melee:
-      - "&4%player%&3 was slain by a %killer%"
+      - "&4%player%&3被%killer%锤成了孙子"
   Gang:
     Projectile-Arrow:
-      - "&4%player%&3 was shot by a group of %killer%'s using %weapon%"
+      - "&4%player%&3被%killer%群殴, 其中一个使用%weapon%射穿了&4%player%&3的心脏"
     Magic:
-      - "&4%player%&3 was killed by a group of %killer%'s using magic"
+      - "&4%player%&3被一群%killer%当成了祭品"
     Weapon:
-      - "&4%player%&3 was slain by a group of %killer%'s somehow using %weapon%"
+      - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
     Melee:
-      - "&4%player%&3 was slain by a group of %killer%'s"
+      - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
 
 Natural-Cause:
   Bed:
     - "&4%player%&3尝试在 %world_environment% 进入另一个空间"
   Respawn-Anchor:
-    - "&4%player%&3尝试在 %world_environment% 使用重生錨，被炸死了！"
+    - "&4%player%&3尝试在 %world_environment% 使用重生錨, 被炸死了！"
   Contact:
     - "&4%player%&3被刺成了筛子"
   Melee:
@@ -115,11 +116,11 @@ Natural-Cause:
     - "&4%player%&3耍三叉戟的时候戳到了自己的脚"
   Suffocation:
     - "&4%player%&3玩窒息play玩飙了"
-    - "PERMISSION[deathmessages.premium]&4%player%&3被狠狠地压死了."
+    - "PERMISSION[deathmessages.premium]&4%player%&3被狠狠地压扁了"
   Fall:
-    - "&4%player%&3想要与太阳肩并肩，但他失败了"
+    - "&4%player%&3想要与太阳肩并肩, 但他失败了"
   Climbable:
-    - "&4%player%&3试图征服%climbable%，但是他太菜了"
+    - "&4%player%&3试图征服%climbable%, 但是他太菜了"
   Fire:
     - "&4%player%&3妄想成为一个不怕火的猪人"
   Fire-Tick:
@@ -145,9 +146,9 @@ Natural-Cause:
   Suicide:
     - "&4%player%&3想不开自杀了"
   Starvation:
-    - "&4%player%&3没有富婆给他软饭吃，饿死了"
+    - "&4%player%&3没有富婆给他软饭吃, 饿死了"
   Poison:
-    - "&4%player%&3不要尝试喝毒药水，&4%player%&3就是个反例"
+    - "&4%player%&3不要尝试喝毒药水, &4%player%&3就是个反例"
   Magic:
     - "&4%player%&3被魔法杀死了"
   Wither:
@@ -161,13 +162,13 @@ Natural-Cause:
   Fly-Into-Wall:
     - "&4%player%&3相信自己的脑袋比墙硬"
   Hot-Floor:
-    - "&4%player%&3的AJ被烫坏了"
+    - "&4%player%&3的匡威被烫坏了"
   Cramming:
-    - "&4%player%&3与太多生物挤在一起，被猥亵了"
+    - "&4%player%&3与太多生物挤在一起, 喘不过气了"
   Dryout:
-    - "&4%player%&3应该属于大海，而不是陆地"
+    - "&4%player%&3应该属于大海, 而不是陆地"
   Freeze:
-    - "&4%player%&3 did not put their snow suit on before they went to play."
+    - "&4%player%&3试图在雪堆里取暖"
   Unknown:
     - "&4%player%&3死的不明不白的"
 Mobs:
@@ -181,26 +182,26 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，&4%player%&3被揍成了孙子"
+        - "&4%player%&3被%killer%群殴了, &4%player%&3被揍成了孙子"
   witherskeleton:
     Solo:
       Projectile-Arrow:
         - "&3%killer%用%weapon%把&4%player%&3射成了马蜂窝"
       Weapon:
-        - "&4%player%&3 was slain by a %killer% somehow using %weapon%"
+        - "&3%killer%用%weapon%把&4%player%&3砍成两截"
       Melee:
-        - "&4%player%&3 was slain by a %killer%"
+        - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴，其中一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴, 其中一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3 was ganed up on by some %killer%'s! One wacked them with %weapon%"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3 was slain by a bunch of %killer%'s"
+        - "&4%player%&3被%killer%群殴了, &4%player%&3被揍成了孙子"
   stray:
     Solo:
       Projectile-Arrow:
@@ -211,11 +212,11 @@ Mobs:
         - "&4%player%&3被%killer%徒手干掉了"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中一个使用%weapon%了结了他"
+        - "&4%player%&3被%killer%群殴了, 其中一个使用%weapon%了结了他"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中一个使用%weapon%了结了他"
+        - "&4%player%&3被%killer%群殴了, 其中一个使用%weapon%了结了他"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   husk:
     Solo:
       Projectile-Arrow:
@@ -226,11 +227,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   zombievillager:
     Solo:
       Projectile-Arrow:
@@ -241,11 +242,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   skeletonhorse:
     Solo:
       Projectile-Arrow:
@@ -256,11 +257,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   zombiehorse:
     Solo:
       Projectile-Arrow:
@@ -271,11 +272,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   armorstand:
     Solo:
       Projectile-Arrow:
@@ -286,11 +287,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   donkey:
     Solo:
       Projectile-Arrow:
@@ -301,11 +302,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   mule:
     Solo:
       Projectile-Arrow:
@@ -316,28 +317,28 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   evoker:
     Solo:
       Projectile-Arrow:
         - "&4%player%&3被%killer%用%weapon%射成了筛子"
       Magic:
-        - "&4%player%&3 was killed by a %killer% using da magic"
+        - "&4%player%&3被%killer%用魔法传送到了另一个空间"
       Weapon:
         - "&3%killer%用%weapon%把&4%player%&3砍成两截"
       Melee:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   vex:
     Solo:
       Projectile-Arrow:
@@ -348,11 +349,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   vindicator:
     Solo:
       Projectile-Arrow:
@@ -363,11 +364,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   illusioner:
     Solo:
       Projectile-Arrow:
@@ -378,11 +379,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   creeper:
     Solo:
       Projectile-Arrow:
@@ -390,16 +391,16 @@ Mobs:
       Weapon:
         - "&3%killer%用%weapon%把&4%player%&3砍成两截"
       Explosion:
-        - "&4%player%&3 was blown up by a %killer%"
+        - "&4%player%&3被%killer%发射到了太空"
       Melee:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   skeleton:
     Solo:
       Projectile-Arrow:
@@ -410,11 +411,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   spider:
     Solo:
       Projectile-Arrow:
@@ -422,14 +423,14 @@ Mobs:
       Weapon:
         - "&3%killer%用%weapon%把&4%player%&3砍成两截"
       Melee:
-        - "&4%player%&3被%killer%的蜘蛛戳死了，他没有变成蜘蛛侠"
+        - "&4%player%&3被%killer%的蜘蛛戳死了, 他没有变成蜘蛛侠"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个吸干了他的血液"
+        - "&4%player%&3被%killer%群殴了, 其中一个吸干了他的血液"
   giant:
     Solo:
       Projectile-Arrow:
@@ -440,11 +441,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   zombie:
     Solo:
       Projectile-Arrow:
@@ -455,11 +456,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，他们分食了&4%player%&3的脑子"
+        - "&4%player%&3被%killer%群殴了, 他们分食了&4%player%&3的脑子"
       Melee:
-        - "&4%player%&3被%killer%群殴了，歪比巴卜？"
+        - "&4%player%&3被%killer%群殴了, 歪比巴卜？"
   slime:
     Solo:
       Projectile-Arrow:
@@ -467,14 +468,14 @@ Mobs:
       Weapon:
         - "&3%killer%用%weapon%把&4%player%&3砍成两截"
       Melee:
-        - "&4%player%&3被%killer%压成了肉饼，身上沾满粘液"
+        - "&4%player%&3被%killer%压成了肉饼, 身上沾满粘液"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，小粘液们要减肥了，压得&4%player%&3喘不过气"
+        - "&4%player%&3被%killer%群殴了, 小粘液们要减肥了, 压得&4%player%&3喘不过气"
   ghast:
     Solo:
       Projectile-Arrow:
@@ -485,11 +486,11 @@ Mobs:
         - "&4%player%&3被%killer%的火球烤的酥脆"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，到现场我们只发现了一坨番茄酱"
+        - "&4%player%&3被%killer%群殴了, 到现场我们只发现了一坨番茄酱"
   pigzombie:
     Solo:
       Projectile-Arrow:
@@ -500,11 +501,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   enderman:
     Solo:
       Projectile-Arrow:
@@ -512,14 +513,14 @@ Mobs:
       Weapon:
         - "&3%killer%用%weapon%把&4%player%&3的头锤出一个大胞"
       Melee:
-        - "&4%player%&3打不过%killer%，别看%killer%的眼睛！"
+        - "&4%player%&3打不过%killer%, 别看%killer%的眼睛！"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，不要惹小黑！"
+        - "&4%player%&3被%killer%群殴了, 不要惹小黑！"
   cavespider:
     Solo:
       Projectile-Arrow:
@@ -530,11 +531,11 @@ Mobs:
         - "&4%player%&3被%killer%拖进了盘丝洞"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%被美女蜘蛛们抬进了盘丝洞，他被服务的很周到"
+        - "&4%player%&3被%killer%被美女蜘蛛们抬进了盘丝洞, 他被服务的很周到"
   silverfish:
     Solo:
       Projectile-Arrow:
@@ -545,11 +546,11 @@ Mobs:
         - "&3%killer%钻进了&4%player%&3的肚子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，不要惹这些烦人的小虫子！"
+        - "&4%player%&3被%killer%群殴了, 不要惹这些烦人的小虫子！"
   blaze:
     Solo:
       Projectile-Arrow:
@@ -560,11 +561,11 @@ Mobs:
         - "&4%player%&3被%killer%的火焰弹烤的酥脆"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   magmacube:
     Solo:
       Projectile-Arrow:
@@ -575,11 +576,11 @@ Mobs:
         - "&4%player%&3被%killer%压成了纸片人"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被一群%killer%群殴了，捶背很舒服"
+        - "&4%player%&3被一群%killer%群殴了, 捶背很舒服"
   enderdragon:
     Solo:
       Projectile-Arrow:
@@ -590,11 +591,11 @@ Mobs:
         - "&4%player%&3被%killer%叼上了天空"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   wither:
     Solo:
       Projectile-Arrow:
@@ -602,18 +603,18 @@ Mobs:
       Weapon:
         - "&3%killer%用%weapon%把&4%player%&3砍成两截"
       Explosion:
-        - "&4%player%&3 stood too close to a %killer% while it was spawning"
+        - "&4%player%&3被突如其来的%killer%吓鼠了"
       Projectile-Fireball:
-        - "&4%player%&3 died to a wither skull"
+        - "&4%player%&3被%killer%的火焰弹烤的酥脆"
       Melee:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   bat:
     Solo:
       Projectile-Arrow:
@@ -624,11 +625,11 @@ Mobs:
         - "&4%player%&3被%killer%咬的哇哇叫"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，小家伙们的牙齿很锋利"
+        - "&4%player%&3被%killer%群殴了, 小家伙们的牙齿很锋利"
   witch:
     Solo:
       Projectile-Arrow:
@@ -639,11 +640,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   endermite:
     Solo:
       Projectile-Arrow:
@@ -654,11 +655,11 @@ Mobs:
         - "&4%player%&3被%killer%咬的哇哇叫"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   guardian:
     Solo:
       Projectile-Arrow:
@@ -669,11 +670,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   shulker:
     Solo:
       Projectile-Arrow:
@@ -684,11 +685,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   pig:
     Solo:
       Projectile-Arrow:
@@ -699,11 +700,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   sheep:
     Solo:
       Projectile-Arrow:
@@ -714,11 +715,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   cow:
     Solo:
       Projectile-Arrow:
@@ -729,11 +730,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   chicken:
     Solo:
       Projectile-Arrow:
@@ -744,11 +745,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   squid:
     Solo:
       Projectile-Arrow:
@@ -759,11 +760,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   wolf:
     Solo:
       Projectile-Arrow:
@@ -774,11 +775,11 @@ Mobs:
         - "&4%player%&3尝试与%killer%打架"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个咬穿了&4%player%&3的头盖骨"
+        - "&4%player%&3被%killer%群殴了, 其中一个咬穿了&4%player%&3的头盖骨"
   mushroomcow:
     Solo:
       Projectile-Arrow:
@@ -789,11 +790,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   snowman:
     Solo:
       Projectile-Arrow:
@@ -804,11 +805,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   ocelot:
     Solo:
       Projectile-Arrow:
@@ -819,11 +820,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   irongolem:
     Solo:
       Projectile-Arrow:
@@ -834,9 +835,9 @@ Mobs:
         - "&4%player%&3被%killer%扔上了天空"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
         - "&4%player%&3被一群%killer%发射到了太空"
   horse:
@@ -849,11 +850,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   rabbit:
     Solo:
       Projectile-Arrow:
@@ -864,11 +865,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   polarbear:
     Solo:
       Projectile-Arrow:
@@ -876,12 +877,12 @@ Mobs:
       Weapon:
         - "&3%killer%用%weapon%把&4%player%&3砍成两截"
       Melee:
-        - "&4%player%&3被%killer%撕掉了衣服，不许惹熊熊！"
+        - "&4%player%&3被%killer%撕掉了衣服, 不许惹熊熊！"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
         - "&4%player%&3被%killer%被饥饿的熊熊们撕碎了"
   llama:
@@ -894,11 +895,11 @@ Mobs:
         - "&4%player%&3被%killer%的口水淹死了"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，口水很臭！"
+        - "&4%player%&3被%killer%群殴了, 口水很臭！"
   parrot:
     Solo:
       Projectile-Arrow:
@@ -909,11 +910,11 @@ Mobs:
         - "&4%player%&3被%killer%啄成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，啄的很疼"
+        - "&4%player%&3被%killer%群殴了, 啄的很疼"
   villager:
     Solo:
       Projectile-Arrow:
@@ -924,11 +925,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   turtle:
     Solo:
       Projectile-Arrow:
@@ -939,11 +940,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   phantom:
     Solo:
       Projectile-Arrow:
@@ -954,11 +955,11 @@ Mobs:
         - "&3困倦的&4%player%&3被%killer%撕得粉碎"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，或许&4%player%&3因该睡一觉"
+        - "&4%player%&3被%killer%群殴了, 或许&4%player%&3因该睡一觉"
   cod:
     Solo:
       Projectile-Arrow:
@@ -969,11 +970,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   salmon:
     Solo:
       Projectile-Arrow:
@@ -984,11 +985,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   pufferfish:
     Solo:
       Projectile-Arrow:
@@ -999,11 +1000,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   tropicalfish:
     Solo:
       Projectile-Arrow:
@@ -1014,11 +1015,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   drowned:
     Solo:
       Projectile-Arrow:
@@ -1029,11 +1030,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   dolphin:
     Solo:
       Projectile-Arrow:
@@ -1041,14 +1042,14 @@ Mobs:
       Weapon:
         - "&3%killer%用%weapon%把&4%player%&3砍成两截"
       Melee:
-        - "&4%player%&3被%killer%杀死了，看似可爱的东西也有危险！"
+        - "&4%player%&3被%killer%杀死了, 看似可爱的东西也有危险！"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   cat:
     Solo:
       Projectile-Arrow:
@@ -1059,11 +1060,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   panda:
     Solo:
       Projectile-Arrow:
@@ -1071,18 +1072,18 @@ Mobs:
       Weapon:
         - "&3%killer%用%weapon%把&4%player%&3砍成两截"
       Melee:
-        - "&4%player%&3被%killer%杀死了，再疼也不能还手！"
+        - "&4%player%&3被%killer%杀死了, 再疼也不能还手！"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，再疼也不能还手！"
+        - "&4%player%&3被%killer%群殴了, 再疼也不能还手！"
   pillager:
     Solo:
       Contact:
-        - "&4%player%&3 was pushed into a cactus by %killer%"
+        - "&4%player%&3被%killer%推进了仙人掌"
       Projectile-Arrow:
         - "&4%player%&3被%killer%用%weapon%射成了筛子"
       Weapon:
@@ -1091,11 +1092,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   ravager:
     Solo:
       Projectile-Arrow:
@@ -1106,11 +1107,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   traderllama:
     Solo:
       Projectile-Arrow:
@@ -1121,11 +1122,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   wanderingtrader:
     Solo:
       Projectile-Arrow:
@@ -1136,11 +1137,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   fox:
     Solo:
       Projectile-Arrow:
@@ -1151,11 +1152,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，好腻害！（（"
+        - "&4%player%&3被%killer%群殴了, 好腻害！（（"
   bee:
     Solo:
       Projectile-Arrow:
@@ -1166,9 +1167,9 @@ Mobs:
         - "&4%player%&3被%killer%扎死了"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
         - "&4%player%&3被一群%killer%针灸了"
   hoglin:
@@ -1181,11 +1182,11 @@ Mobs:
         - "&4%player%&3被%killer%拱成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   piglin:
     Solo:
       Projectile-Arrow:
@@ -1196,11 +1197,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   strider:
     Solo:
       Projectile-Arrow:
@@ -1211,11 +1212,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   zoglin:
     Solo:
       Projectile-Arrow:
@@ -1226,11 +1227,11 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   piglinbrute:
     Solo:
       Projectile-Arrow:
@@ -1241,17 +1242,17 @@ Mobs:
         - "&4%player%&3被%killer%锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%射穿了&4%player%&3的心脏"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%射穿了&4%player%&3的心脏"
       Weapon:
-        - "&4%player%&3被%killer%群殴了，其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
+        - "&4%player%&3被%killer%群殴了, 其中有一个使用%weapon%放干了&4%player%&3的最后一滴血"
       Melee:
-        - "&4%player%&3被%killer%群殴了，其中一个徒手把他了结了"
+        - "&4%player%&3被%killer%群殴了, 其中一个徒手把他了结了"
   player:
     Solo:
       Bed:
-        - "&4%player%&3 stood too close to %killer%'s bed in the %world_environment%"
+        - "&4%player%&3试图在%world_environment%使用%killer%的床进入二次元"
       Respawn-Anchor:
-        - "&4%player%&3 stood too close to %killer%'s respawn anchor in the %world_environment%"
+        - "&4%player%&3试图在%world_environment%使用%killer%的重生锚进入太空"
       Contact:
         - "&4%player%&3被&3%killer%&3推进了仙人掌"
       Projectile-Unknown:
@@ -1265,9 +1266,7 @@ Mobs:
       Weapon:
         - "&4%player%&3被&3%killer%&3的&9%weapon%&3驯服并叫了声主人"
         - "&4%player%&3被迫屈服于&3%killer%&3的&9%weapon%&3之下"
-        - "&4%player%&3被&3%killer%&3撸炸膛了"
       Melee:
-        - "&4%player%&3被&3%killer%&3撸炸膛了"
         - "&4%player%&3被&3%killer%&3榨干了"
       Suffocation:
         - "&4%player%&3与%killer_display%玩窒息play玩飚了"
@@ -1291,36 +1290,36 @@ Mobs:
         - "&4%player%&3尝试扒&3%killer%&3的衣服时被吓死了"
       # Hook related deaths
       CombatLogX-Kill:
-        - '&4%player%&3 logged out during combat fighting %killer%, they died still -.-'
+        - '&4%player%&3试图在与%killer%的战斗中逃逸, 但是&4%player%&3失败了 -.-'
     Gang:
       Projectile-Arrow:
-        - "&4%player%&3惨遭&3%killer%&3的群殴，最后被&9%weapon%&3射中了裆部"
+        - "&4%player%&3惨遭&3%killer%&3的群殴, 最后被&9%weapon%&3射中了裆部"
       Weapon:
-        - "&4%player%&3惨遭&3%killer%&3的群殴，最后被&9%weapon%&3砍成两段"
+        - "&4%player%&3惨遭&3%killer%&3的群殴, 最后被&9%weapon%&3砍成两段"
       Melee:
         - "&4%player%&3被&3%killer%&3一群人群殴致死"
   goat:
     Solo:
       Melee:
-        - "&4%player%&3 was knocked by a %killer%"
+        - "&4%player%&3被%killer%开着泥头车创死了"
     Gang:
       Melee:
-        - "&4%player%&3 was knocked by a bunch of %killer%'s"
+        - "&4%player%&3被一群%killer%扔到了另一个维度"
   warden:
     Solo:
       Melee:
-        - "&4%player%&3 was slain by %killer%"
+        - "&4%player%&3打扰到了%killer%的美梦"
       Sonic-Boom:
-        - "&4%player%&3 was obliterated by a sonically-charged shriek"
+        - "&4%player%&3觉得TA的世界没有声音"
     Gang:
       Melee:
-        - "&4%player%&3 was slain by a bunch of %killer%'s"
+        - "&4%player%&3惹怒了一群有起床气的%killer%"
       Sonic-Boom:
-        - "&4%player%&3 was obliterated by a bunch of sonically-charged shrieks"
+        - "&4%player%&3觉得TA的电脑音量不够大"
 
 Custom-Mobs:
   Mythic-Mobs:
     SkeletalMinion:
       Solo:
         Projectile-Arrow:
-          - "&4%player%&3 was shot by %killer%"
+          - "&4%player%&3被%killer%用%weapon%射成了筛子"
