@@ -93,7 +93,7 @@ Natural-Cause:
   Bed:
     - "&4%player%&3尝试在 %world_environment% 进入另一个空间"
   Respawn-Anchor:
-    - "&4%player%&3尝试在 %world_environment% 使用重生錨, 被炸死了！"
+    - "&4%player%&3尝试在 %world_environment% 使用重生锚, 被炸死了！"
   Contact:
     - "&4%player%&3被刺成了筛子"
   Melee:
