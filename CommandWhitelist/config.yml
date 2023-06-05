@@ -1,0 +1,21 @@
+# Messages use MiniMessage formatting (https://docs.adventure.kyori.net/minimessage/format)
+messages:
+  prefix: 'WATCHDOG > '
+  command_denied: Unknown command. Type "/help" for help.
+  subcommand_denied: Unknown command. Type "/help" for help.
+  no_permission: <red>你没有权限使用这个指令.
+  no_such_subcommand: Unknown command. Type "/help" for help.
+  config_reloaded: <yellow>成功重载配置.
+  added_to_whitelist: <yellow>加入指令到白名单 <gold>%s <yellow>需要权限 <gold>%s
+  removed_from_whitelist: <yellow>从白名单中删除指令 <gold>%s <yellow>需要权限 <gold>%s
+  group_doesnt_exist: <red>无法找到组
+
+# Do not enable if you don't have issues with aliased commands.
+# This requires server restart to take effect.
+use_protocollib: false
+groups:
+  default:
+    commands:
+    - add by yourself
+    subcommands:
+    - help about
