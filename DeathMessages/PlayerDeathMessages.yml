@@ -1,4 +1,5 @@
 # DeathMessages by Joshb_ (Original DeathMessagesPrime by CosmoConsole)
+# Chinese translation by Dreeam (Combined with original translation from MCBBS)
 # All configs from this plugin has an auto updater. Meaning if I add a value in the config from updates,
 # the value will be automatically added without regenerating the configs.
 #
@@ -69,1255 +70,1255 @@ Basic-Mode:
   Enabled: false
   Solo:
     Projectile-Arrow:
-      - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+      - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
     Explosion:
-      - '&4%player% &3被%killer% &3发射到了太空'
+      - "&4%player% &3被%killer% &3发射到了太空"
     Magic:
-      - '&4%player% &3被%killer% &3用魔法传送到了另一个空间'
+      - "&4%player% &3被%killer% &3用魔法传送到了另一个空间"
     Weapon:
-      - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+      - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
     Melee:
-      - '&4%player% &3被%killer% &3锤成了孙子'
+      - "&4%player% &3被%killer% &3锤成了孙子"
   Gang:
     Projectile-Arrow:
-      - '&4%player% &3被%killer% &3群殴, 其中一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+      - "&4%player% &3被%killer% &3群殴, 其中一个使用%weapon%&3射穿了 &4%player%&3的心脏"
     Magic:
-      - '&4%player% &3被一群%killer% &3当成了祭品'
+      - "&4%player% &3被一群%killer% &3当成了祭品"
     Weapon:
-      - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+      - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
     Melee:
-      - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+      - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
 Natural-Cause:
   Bed:
-    - '&4%player%&3尝试在%world_environment%进入另一个空间'
+    - "&4%player%&3尝试在%world_environment%进入另一个空间"
   Respawn-Anchor:
-    - '&4%player%&3尝试在%world_environment%使用重生錨, 被炸死了！'
+    - "&4%player%&3尝试在%world_environment%使用重生錨, 被炸死了！"
   Contact:
-    - '&4%player%&3被刺成了筛子'
+    - "&4%player%&3被刺成了筛子"
   Melee:
-    - '&4%player%&3选择了自杀'
+    - "&4%player%&3选择了自杀"
   Projectile-Unknown:
-    - '&4%player%&3被神秘力量带走了'
+    - "&4%player%&3被神秘力量带走了"
   Projectile-Arrow:
-    - '&4%player%&3把%weapon%&3插到了自己头上'
+    - "&4%player%&3把%weapon%&3插到了自己头上"
   Projectile-Egg:
-    - '&4%player%&3吃蛋的时候噎死了'
+    - "&4%player%&3吃蛋的时候噎死了"
   Projectile-EnderPearl:
-    - '&4%player%&3用末影珍珠传送的时候跌断了腿'
+    - "&4%player%&3用末影珍珠传送的时候跌断了腿"
   Projectile-Fireball:
-    - '&4%player%&3玩火球的时候砸到了自己'
+    - "&4%player%&3玩火球的时候砸到了自己"
   Projectile-FishHook:
-    - '&4%player%&3甩鱼钩的时候勾到了自己的脑袋'
+    - "&4%player%&3甩鱼钩的时候勾到了自己的脑袋"
   Projectile-Snowball:
-    - '&4%player%&3玩雪球的时候砸到了太阳穴'
+    - "&4%player%&3玩雪球的时候砸到了太阳穴"
   Projectile-Trident:
-    - '&4%player%&3耍三叉戟的时候戳到了自己的脚'
+    - "&4%player%&3耍三叉戟的时候戳到了自己的脚"
   Suffocation:
-    - '&4%player%&3玩窒息play玩飙了'
+    - "&4%player%&3玩窒息play玩飙了"
     - PERMISSION[deathmessages.premium]&4%player%&3被狠狠地压扁了
   Fall:
-    - '&4%player%&3想要与太阳肩并肩, 但他失败了'
+    - "&4%player%&3想要与太阳肩并肩, 但他失败了"
   Climbable:
-    - '&4%player%&3试图征服%climbable%, 但是他太菜了'
+    - "&4%player%&3试图征服%climbable%, 但是他太菜了"
   Fire:
-    - '&4%player%&3妄想成为一个不怕火的猪人'
+    - "&4%player%&3妄想成为一个不怕火的猪人"
   Fire-Tick:
-    - '&4%player%&3被烧的酥脆'
+    - "&4%player%&3被烧的酥脆"
   Melting:
-    - '&4%player%&3被热的融化了'
+    - "&4%player%&3被热的融化了"
   Lava:
-    - '&4%player%&3认为岩浆只是个热水浴缸'
+    - "&4%player%&3认为岩浆只是个热水浴缸"
   Drowning:
-    - '&4%player%&3想成为一个海王'
+    - "&4%player%&3想成为一个海王"
   Explosion:
-    - '&4%player%&3被炸飞了'
+    - "&4%player%&3被炸飞了"
   TNT:
-    - '&4%player%&3被TNT炸成了肉酱'
+    - "&4%player%&3被TNT炸成了肉酱"
   Firework:
-    - '&4%player%&3让小孩子放烟花不是个明智的选择'
+    - "&4%player%&3让小孩子放烟花不是个明智的选择"
   End-Crystal:
-    - '&4%player%&3被美丽的水晶炸的粉碎'
+    - "&4%player%&3被美丽的水晶炸的粉碎"
   Void:
-    - '&4%player%&3脚滑掉进了虚空'
+    - "&4%player%&3脚滑掉进了虚空"
   Lightning:
-    - '&4%player%&3被自己召唤的闪电劈死了'
+    - "&4%player%&3被自己召唤的闪电劈死了"
   Suicide:
-    - '&4%player%&3想不开自杀了'
+    - "&4%player%&3想不开自杀了"
   Starvation:
-    - '&4%player%&3没有富婆给他软饭吃, 饿死了'
+    - "&4%player%&3没有富婆给他软饭吃, 饿死了"
   Poison:
-    - '&4%player%&3不要尝试喝毒药水, &4%player%&3就是个反例'
+    - "&4%player%&3不要尝试喝毒药水, &4%player%&3就是个反例"
   Magic:
-    - '&4%player%&3被魔法杀死了'
+    - "&4%player%&3被魔法杀死了"
   Wither:
-    - '&4%player%&3凋零了'
+    - "&4%player%&3凋零了"
   Falling-Block:
-    - '&4%player%&3被从高空掉下的%block%砸成了纸片人'
+    - "&4%player%&3被从高空掉下的%block%砸成了纸片人"
   Dragon-Breath:
-    - '&4%player%&3被末影龙的龙息创飞了'
+    - "&4%player%&3被末影龙的龙息创飞了"
   Custom:
-    - '&4%player%&3死于奇奇怪怪的原因'
+    - "&4%player%&3死于奇奇怪怪的原因"
   Fly-Into-Wall:
-    - '&4%player%&3相信自己的脑袋比墙硬'
+    - "&4%player%&3相信自己的脑袋比墙硬"
   Hot-Floor:
-    - '&4%player%&3的匡威被烫坏了'
+    - "&4%player%&3的匡威被烫坏了"
   Cramming:
-    - '&4%player%&3与太多生物挤在一起, 喘不过气了'
+    - "&4%player%&3与太多生物挤在一起, 喘不过气了"
   Dryout:
-    - '&4%player%&3应该属于大海, 而不是陆地'
+    - "&4%player%&3应该属于大海, 而不是陆地"
   Freeze:
-    - '&4%player%&3试图在雪堆里取暖'
+    - "&4%player%&3试图在雪堆里取暖"
   Unknown:
-    - '&4%player%&3死的不明不白的'
+    - "&4%player%&3死的不明不白的"
 Mobs:
   elderguardian:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了,  &4%player%&3被揍成了孙子'
+        - "&4%player% &3被%killer% &3群殴了,  &4%player%&3被揍成了孙子"
   witherskeleton:
     Solo:
       Projectile-Arrow:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3射成了马蜂窝'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3射成了马蜂窝"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴, 其中一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴, 其中一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了,  &4%player%&3被揍成了孙子'
+        - "&4%player% &3被%killer% &3群殴了,  &4%player%&3被揍成了孙子"
   stray:
     Solo:
       Projectile-Arrow:
-        - '&3%killer% &3使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&3%killer% &3使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3使用%weapon%&3干掉了'
+        - "&4%player% &3被%killer% &3使用%weapon%&3干掉了"
       Melee:
-        - '&4%player% &3被%killer% &3徒手干掉了'
+        - "&4%player% &3被%killer% &3徒手干掉了"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个使用%weapon%&3了结了他'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个使用%weapon%&3了结了他"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个使用%weapon%&3了结了他'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个使用%weapon%&3了结了他"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   husk:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   zombievillager:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   skeletonhorse:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   zombiehorse:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   armorstand:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   donkey:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   mule:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   evoker:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Magic:
-        - '&4%player% &3被%killer% &3用魔法传送到了另一个空间'
+        - "&4%player% &3被%killer% &3用魔法传送到了另一个空间"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   vex:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   vindicator:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   illusioner:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   creeper:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Explosion:
-        - '&4%player% &3被%killer% &3发射到了太空'
+        - "&4%player% &3被%killer% &3发射到了太空"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   skeleton:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   spider:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3的蜘蛛戳死了, 他没有变成蜘蛛侠'
+        - "&4%player% &3被%killer% &3的蜘蛛戳死了, 他没有变成蜘蛛侠"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个吸干了他的血液'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个吸干了他的血液"
   giant:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   zombie:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把  &4%player%&3砍成两截并挖走了他的脑子'
+        - "&3%killer% &3用%weapon%&3把  &4%player%&3砍成两截并挖走了他的脑子"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 他们分食了 &4%player%&3的脑子'
+        - "&4%player% &3被%killer% &3群殴了, 他们分食了 &4%player%&3的脑子"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 歪比巴卜？'
+        - "&4%player% &3被%killer% &3群殴了, 歪比巴卜？"
   slime:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3压成了肉饼, 身上沾满粘液'
+        - "&4%player% &3被%killer% &3压成了肉饼, 身上沾满粘液"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 小粘液们要减肥了, 压得 &4%player%&3喘不过气'
+        - "&4%player% &3被%killer% &3群殴了, 小粘液们要减肥了, 压得 &4%player%&3喘不过气"
   ghast:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3的火球烤的酥脆'
+        - "&4%player% &3被%killer% &3的火球烤的酥脆"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 到现场我们只发现了一坨番茄酱'
+        - "&4%player% &3被%killer% &3群殴了, 到现场我们只发现了一坨番茄酱"
   pigzombie:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   enderman:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3的头锤出一个大胞'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3的头锤出一个大胞"
       Melee:
-        - '&4%player% &3打不过%killer% &3, 别看%killer% &3的眼睛！'
+        - "&4%player% &3打不过%killer% &3, 别看%killer% &3的眼睛！"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 不要惹小黑！'
+        - "&4%player% &3被%killer% &3群殴了, 不要惹小黑！"
   cavespider:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3拖进了盘丝洞'
+        - "&4%player% &3被%killer% &3拖进了盘丝洞"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3被美女蜘蛛们抬进了盘丝洞, 他被服务的很周到'
+        - "&4%player% &3被%killer% &3被美女蜘蛛们抬进了盘丝洞, 他被服务的很周到"
   silverfish:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&3%killer% &3钻进了 &4%player%&3的肚子'
+        - "&3%killer% &3钻进了 &4%player%&3的肚子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 不要惹这些烦人的小虫子！'
+        - "&4%player% &3被%killer% &3群殴了, 不要惹这些烦人的小虫子！"
   blaze:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3的火焰弹烤的酥脆'
+        - "&4%player% &3被%killer% &3的火焰弹烤的酥脆"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   magmacube:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3压成了纸片人'
+        - "&4%player% &3被%killer% &3压成了纸片人"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被一群%killer% &3群殴了, 捶背很舒服'
+        - "&4%player% &3被一群%killer% &3群殴了, 捶背很舒服"
   enderdragon:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3叼上了天空'
+        - "&4%player% &3被%killer% &3叼上了天空"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   wither:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Explosion:
-        - '&4%player% &3被突如其来的%killer% &3吓鼠了'
+        - "&4%player% &3被突如其来的%killer% &3吓鼠了"
       Projectile-Fireball:
-        - '&4%player% &3被%killer% &3的火焰弹烤的酥脆'
+        - "&4%player% &3被%killer% &3的火焰弹烤的酥脆"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   bat:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3咬的哇哇叫'
+        - "&4%player% &3被%killer% &3咬的哇哇叫"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 小家伙们的牙齿很锋利'
+        - "&4%player% &3被%killer% &3群殴了, 小家伙们的牙齿很锋利"
   witch:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   endermite:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3咬的哇哇叫'
+        - "&4%player% &3被%killer% &3咬的哇哇叫"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   guardian:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   shulker:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   pig:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   sheep:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   cow:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   chicken:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   squid:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   wolf:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3尝试与%killer% &3打架'
+        - "&4%player% &3尝试与%killer% &3打架"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个咬穿了 &4%player%&3的头盖骨'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个咬穿了 &4%player%&3的头盖骨"
   mushroomcow:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   snowman:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   ocelot:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   irongolem:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3扔上了天空'
+        - "&4%player% &3被%killer% &3扔上了天空"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被一群%killer% &3发射到了太空'
+        - "&4%player% &3被一群%killer% &3发射到了太空"
   horse:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   rabbit:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   polarbear:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3撕掉了衣服, 不许惹熊熊！'
+        - "&4%player% &3被%killer% &3撕掉了衣服, 不许惹熊熊！"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3被饥饿的熊熊们撕碎了'
+        - "&4%player% &3被%killer% &3被饥饿的熊熊们撕碎了"
   llama:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3的口水淹死了'
+        - "&4%player% &3被%killer% &3的口水淹死了"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 口水很臭！'
+        - "&4%player% &3被%killer% &3群殴了, 口水很臭！"
   parrot:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3啄成了孙子'
+        - "&4%player% &3被%killer% &3啄成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 啄的很疼'
+        - "&4%player% &3被%killer% &3群殴了, 啄的很疼"
   villager:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   turtle:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   phantom:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&3困倦的 &4%player%&3被%killer% &3撕得粉碎'
+        - "&3困倦的 &4%player%&3被%killer% &3撕得粉碎"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 或许 &4%player%&3因该睡一觉'
+        - "&4%player% &3被%killer% &3群殴了, 或许 &4%player%&3因该睡一觉"
   cod:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   salmon:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   pufferfish:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   tropicalfish:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   drowned:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   dolphin:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3杀死了, 看似可爱的东西也有危险！'
+        - "&4%player% &3被%killer% &3杀死了, 看似可爱的东西也有危险！"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   cat:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   panda:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3杀死了, 再疼也不能还手！'
+        - "&4%player% &3被%killer% &3杀死了, 再疼也不能还手！"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 再疼也不能还手！'
+        - "&4%player% &3被%killer% &3群殴了, 再疼也不能还手！"
   pillager:
     Solo:
       Contact:
-        - '&4%player% &3被%killer% &3推进了仙人掌'
+        - "&4%player% &3被%killer% &3推进了仙人掌"
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   ravager:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   traderllama:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   wanderingtrader:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   fox:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 好腻害！（（'
+        - "&4%player% &3被%killer% &3群殴了, 好腻害！（（"
   bee:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3扎死了'
+        - "&4%player% &3被%killer% &3扎死了"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被一群%killer% &3针灸了'
+        - "&4%player% &3被一群%killer% &3针灸了"
   hoglin:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3拱成了孙子'
+        - "&4%player% &3被%killer% &3拱成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   piglin:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   strider:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   zoglin:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   piglinbrute:
     Solo:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+        - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
       Weapon:
-        - '&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截'
+        - "&3%killer% &3用%weapon%&3把 &4%player%&3砍成两截"
       Melee:
-        - '&4%player% &3被%killer% &3锤成了孙子'
+        - "&4%player% &3被%killer% &3锤成了孙子"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3射穿了 &4%player%&3的心脏"
       Weapon:
-        - '&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血'
+        - "&4%player% &3被%killer% &3群殴了, 其中有一个使用%weapon%&3放干了 &4%player%&3的最后一滴血"
       Melee:
-        - '&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了'
+        - "&4%player% &3被%killer% &3群殴了, 其中一个徒手把他了结了"
   player:
     Solo:
       Bed:
-        - '&4%player% &3试图在%world_environment%使用%killer% &3的床进入二次元'
+        - "&4%player% &3试图在%world_environment%使用%killer% &3的床进入二次元"
       Respawn-Anchor:
-        - '&4%player% &3试图在%world_environment%使用%killer% &3的重生锚进入太空'
+        - "&4%player% &3试图在%world_environment%使用%killer% &3的重生锚进入太空"
       Contact:
-        - '&4%player% &3被&3%killer% &3推进了仙人掌'
+        - "&4%player% &3被&3%killer% &3推进了仙人掌"
       Projectile-Unknown:
-        - '&4%player% &3被&3%killer% &3射死了'
+        - "&4%player% &3被&3%killer% &3射死了"
       Projectile-Arrow:
-        - '&4%player% &3被&3%killer% &3使用&9%weapon%&3射成了马蜂窝'
+        - "&4%player% &3被&3%killer% &3使用&9%weapon%&3射成了马蜂窝"
       Projectile-Fireball:
-        - '&4%player% &3被&3%killer% &3的火球炸飞了'
+        - "&4%player% &3被&3%killer% &3的火球炸飞了"
       Projectile-Snowball:
-        - '&4%player% &3被&3%killer% &3的雪球砸到了太阳穴'
+        - "&4%player% &3被&3%killer% &3的雪球砸到了太阳穴"
       Weapon:
-        - '&4%player% &3被&3%killer% &3的&9%weapon%&3驯服并叫了声主人'
-        - '&4%player% &3被迫屈服于&3%killer% &3的&9%weapon%&3之下'
+        - "&4%player% &3被&3%killer% &3的&9%weapon%&3驯服并叫了声主人"
+        - "&4%player% &3被迫屈服于&3%killer% &3的&9%weapon%&3之下"
       Melee:
-        - '&4%player% &3被&3%killer% &3榨干了'
+        - "&4%player% &3被&3%killer% &3榨干了"
       Suffocation:
-        - '&4%player% &3与%killer_display%玩窒息play玩飚了'
+        - "&4%player% &3与%killer_display%玩窒息play玩飚了"
       Fall:
-        - '&4%player% &3与&3%killer% &3激战时从高处摔了下来'
+        - "&4%player% &3与&3%killer% &3激战时从高处摔了下来"
       Lava:
-        - '&4%player% &3的皮燕子被&3%killer% &3灌了一桶岩浆'
+        - "&4%player% &3的皮燕子被&3%killer% &3灌了一桶岩浆"
       Explosion:
-        - '&3%killer% &3炸掉了 &4%player%&3的IQ'
+        - "&3%killer% &3炸掉了 &4%player%&3的IQ"
       TNT:
-        - '&3%killer% &3用TNT炸掉了 &4%player%&3的裆部'
+        - "&3%killer% &3用TNT炸掉了 &4%player%&3的裆部"
       Firework:
-        - '&&3%killer% &3放的烟花不小心插进了 &4%player%&3的皮燕子'
+        - "&&3%killer% &3放的烟花不小心插进了 &4%player%&3的皮燕子"
       End-Crystal:
-        - '&3%killer% &3放的水晶把 &4%player%&3炸的粉碎'
+        - "&3%killer% &3放的水晶把 &4%player%&3炸的粉碎"
       Void:
-        - '&4%player% &3在与&3%killer% &3激战时不小心穿越到了后室'
+        - "&4%player% &3在与&3%killer% &3激战时不小心穿越到了后室"
       Wither:
-        - '&4%player% &3被&3%killer% &3的魔法凋零了'
+        - "&4%player% &3被&3%killer% &3的魔法凋零了"
       Thorns:
-        - '&4%player% &3尝试扒&3%killer% &3的衣服时被吓死了'
+        - "&4%player% &3尝试扒&3%killer% &3的衣服时被吓死了"
       # Hook related deaths
       CombatLogX-Kill:
-        - '&4%player% &3试图在与%killer% &3的战斗中逃逸, 但是 &4%player%&3失败了 -.-'
+        - "&4%player% &3试图在与%killer% &3的战斗中逃逸, 但是 &4%player%&3失败了 -.-"
     Gang:
       Projectile-Arrow:
-        - '&4%player% &3惨遭&3%killer% &3的群殴, 最后被&9%weapon%&3射中了裆部'
+        - "&4%player% &3惨遭&3%killer% &3的群殴, 最后被&9%weapon%&3射中了裆部"
       Weapon:
-        - '&4%player% &3惨遭&3%killer% &3的群殴, 最后被&9%weapon%&3砍成两段'
+        - "&4%player% &3惨遭&3%killer% &3的群殴, 最后被&9%weapon%&3砍成两段"
       Melee:
-        - '&4%player% &3被&3%killer% &3一群人群殴致死'
+        - "&4%player% &3被&3%killer% &3一群人群殴致死"
   goat:
     Solo:
       Melee:
-        - '&4%player% &3被%killer% &3开着泥头车创死了'
+        - "&4%player% &3被%killer% &3开着泥头车创死了"
     Gang:
       Melee:
-        - '&4%player% &3被一群%killer% &3扔到了另一个维度'
+        - "&4%player% &3被一群%killer% &3扔到了另一个维度"
   warden:
     Solo:
       Melee:
-        - '&4%player% &3打扰到了%killer% &3的美梦'
+        - "&4%player% &3打扰到了%killer% &3的美梦"
       Sonic-Boom:
-        - '&4%player% &3觉得TA的世界没有声音'
+        - "&4%player% &3觉得TA的世界没有声音"
     Gang:
       Melee:
-        - '&4%player% &3惹怒了一群有起床气的%killer%'
+        - "&4%player% &3惹怒了一群有起床气的%killer%"
       Sonic-Boom:
-        - '&4%player% &3觉得TA的电脑音量不够大'
+        - "&4%player% &3觉得TA的电脑音量不够大"
 
 Custom-Mobs:
   Mythic-Mobs:
     SkeletalMinion:
       Solo:
         Projectile-Arrow:
-          - '&4%player% &3被%killer% &3用%weapon%&3射成了筛子'
+          - "&4%player% &3被%killer% &3用%weapon%&3射成了筛子"
