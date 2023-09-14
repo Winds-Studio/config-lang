@@ -1,5 +1,4 @@
 # DeathMessages by Joshb_ (Original DeathMessagesPrime by CosmoConsole)
-# Chinese translation by Dreeam (Combined with original translation from MCBBS)
 # All configs from this plugin has an auto updater. Meaning if I add a value in the config from updates,
 # the value will be automatically added without regenerating the configs.
 #
@@ -43,31 +42,31 @@ Entities:
   # Below is an example of how this section is setup. You can use any death-type like in PlayerDeathMessages.yml
   wolf:
     Tamed:
-      - "&4%killer%&3杀死了 %owner% 的 %entity%"
+    - '&4%killer%&3杀死了 %owner% 的 %entity%'
     Projectile-Arrow:
-      - "&4%killer%&3 360'd Y Y'd a poor little doggy using %weapon%"
+    - '&4%killer%&3 360''d Y Y''d a poor little doggy using %weapon%'
     Weapon:
-      - "&4%killer%&3使用 %weapon% 悄悄把一只狗从人间蒸发了"
+    - '&4%killer%&3使用 %weapon% 悄悄把一只狗从人间蒸发了'
     Melee:
-      - "&4%killer%&3随机送一只狗上了西天"
+    - '&4%killer%&3随机送一只狗上了西天'
     Void:
-      - "&4%killer%&3随机挑选了一只狗推进了虚空"
+    - '&4%killer%&3随机挑选了一只狗推进了虚空'
     TNT:
-      - "&4%killer%&3尝试将一只狗发射出去!"
+    - '&4%killer%&3尝试将一只狗发射出去!'
     Respawn-Anchor:
-      - "&4%killer%&3尝试用重生锚将一只狗发射出去"
+    - '&4%killer%&3尝试用重生锚将一只狗发射出去'
   enderdragon:
     Projectile-Arrow:
-      - "&4%killer% &3360'd Y Y'd the &6&lEnder Dragon &cusing %weapon%"
+    - '&4%killer% &3360''d Y Y''d the &6&lEnder Dragon &cusing %weapon%'
     Melee:
-      - "&4%killer%&3征服了末影龙!"
+    - '&4%killer%&3征服了末影龙!'
 
 #Mythic-Mob Entities https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/
 Mythic-Mobs-Entities:
   SkeletalMinion:
     Melee:
-      - '&4%killer%&3赤手空拳地将%entity_display%置于死地'
+    - '&4%killer%&3赤手空拳地将%entity_display%置于死地'
     Weapon:
-      - '&4%killer%&3使用%weapon%轻易地战胜了%entity_display%'
+    - '&4%killer%&3使用%weapon%轻易地战胜了%entity_display%'
     TNT:
-      - '&4%killer%&3使用TNT将%entity_display%传送到了另一个空间'
+    - '&4%killer%&3使用TNT将%entity_display%传送到了另一个空间'

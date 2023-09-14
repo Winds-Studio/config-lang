@@ -39,7 +39,7 @@ Hooks:
       Player:
         Enabled: true
         Channels:
-          - "218258614192450048:827286062147837621"
+        - 218258614192450048:827286062147837621
       Mob:
         Enabled: true
         Channels: []
@@ -53,8 +53,8 @@ Hooks:
     World-Whitelist:
       Enabled: false
       Worlds:
-        - test1
-        - test2
+      - test1
+      - test2
 
   # If you run a bungee server that you would like to send death messages to other servers, enable this
   Bungee:
@@ -71,13 +71,13 @@ Hooks:
       Enabled: false
       # Get the server names from your config.yml in bungee
       Servers:
-        - lobby
-        - survival
+      - lobby
+      - survival
 
 
 # If enabled, user data will be saved. (Blacklist, and /dm toggle data)
 # If disabled, data wont be saved in UserData.yml
-Saved-User-Data: true
+Saved-User-Data: false
 
 # If enabled, weapon kills will default to a defined kill if the weapon does not have a custom display name
 Disable-Weapon-Kill-With-No-Custom-Name:
@@ -99,11 +99,11 @@ Disable-Weapon-Kill-With-No-Custom-Name:
 
 # If enabled, if a player was pushed into the void by a killer, and void kill message is not defined, use melee death.
 # This option is ignored if Default-Natural-Death-Not-Defined is set to true.
-Default-Melee-Last-Damage-Not-Defined: true
+Default-Melee-Last-Damage-Not-Defined: false
 
 # If enabled, for example, if a player was pushed into the void by a killer,
 # and void kill message is not defined in the player section, natural death message will be used.
-Default-Natural-Death-Not-Defined: true
+Default-Natural-Death-Not-Defined: false
 
 # Set the listener call priority for death messages.
 # LOWEST, LOW, NORMAL, HIGH, HIGHEST are allowed
@@ -113,11 +113,10 @@ Death-Listener-Priority: HIGH
 # If enabled, if mobs that have any specified characters from If-Contains, the default mob name will be displayed.
 Rename-Mobs:
   Enabled: true
-  If-Contains: "♡♥❤■"
+  If-Contains: ♡♥❤■
 
 # If enabled, mobs will always default to their entity name. Display names will always be ignored. (Besides players)
 Disable-Named-Mobs: false
-
 Expire-Last-Damage:
   # How long until the last mob that damaged a player expires? (Becomes a natural death cause)
   # Default: 7
@@ -135,18 +134,17 @@ Per-World-Messages: false
 # and not used in the code.
 # If a world a player dies in is not specified, it will only broadcast to the world the player died in.
 World-Groups:
-  1:
-    - world
-    - world_nether
-    - world_the_end
+  '1':
+  - world
+  - world_nether
+  - world_the_end
 
 # Worlds that death messages will never be sent to.
 # Regardless of any other settings, messages will never be sent on these worlds.
 # If a world listed below belongs in a world group. Still, the messages will never be sent to any world.
 Disabled-Worlds:
-  - someDisabledWorld1
-  - someOtherDisabledWorld
-
+- someDisabledWorld1
+- someOtherDisabledWorld
 Private-Messages:
   # All messages will still be sent to the console log no matter the setting.
   # Discord messages will be effected depending on if the below settings are changed.
@@ -172,10 +170,10 @@ Cooldown: 0
 # a Weapon Kill. Not a melee kill.
 # REGEX is required here.
 Custom-Item-Display-Names-Is-Weapon:
-  - '&6SUPER\sCOOL\sGOLDEN\sAPPLE'
-  - 'SICKNAME'
+- '&6SUPER\sCOOL\sGOLDEN\sAPPLE'
+- SICKNAME
 
 # Any item materials you list here will return a weapon kill. Not a melee kill
 # Material names are listed here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
 Custom-Item-Material-Is-Weapon:
-  - 'ACACIA_FENCE'
+- ACACIA_FENCE
