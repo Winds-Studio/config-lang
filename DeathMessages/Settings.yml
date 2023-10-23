@@ -1,4 +1,4 @@
-# DeathMessages by MrShawn
+# DeathMessages by MrShawn, Dreeam__
 #
 # Disable the default messages from minecraft
 Disable-Default-Messages: true
@@ -25,6 +25,11 @@ Hooks:
   WorldGuard:
     Enabled: false
 
+  # If CombatLogX is found, enable the hook
+  # Enable/Disable CombatLogX hook
+  CombatLogX:
+    Enabled: false
+
   # If DiscordBotAPI (https://www.spigotmc.org/resources/discordbotapi.86518/) or DiscordSRV
   # (https://www.spigotmc.org/resources/discordsrv.18494/)is installed, and enabled here.
   # To get the Guild ID and Channel-IDs, you must have developer mode enabled in discord. Then, you will right-click the
@@ -39,7 +44,7 @@ Hooks:
       Player:
         Enabled: true
         Channels:
-        - 218258614192450048:827286062147837621
+        - 577106050046623773:1152818380923994182
       Mob:
         Enabled: true
         Channels: []

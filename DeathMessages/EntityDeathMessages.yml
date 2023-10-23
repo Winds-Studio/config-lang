@@ -1,4 +1,4 @@
-# DeathMessages by Joshb_ (Original DeathMessagesPrime by CosmoConsole)
+# DeathMessages by Joshb_, Dreeam__ (Original DeathMessagesPrime by CosmoConsole)
 # All configs from this plugin has an auto updater. Meaning if I add a value in the config from updates,
 # the value will be automatically added without regenerating the configs.
 #
@@ -42,11 +42,11 @@ Entities:
   # Below is an example of how this section is setup. You can use any death-type like in PlayerDeathMessages.yml
   wolf:
     Tamed:
-    - '&4%killer%&3杀死了 %owner% 的 %entity%'
+    - '&4%killer%&3杀死了%owner%的%entity%'
     Projectile-Arrow:
     - '&4%killer%&3 360''d Y Y''d a poor little doggy using %weapon%'
     Weapon:
-    - '&4%killer%&3使用 %weapon% 悄悄把一只狗从人间蒸发了'
+    - '&4%killer%&3使用%weapon%悄悄把一只狗从人间蒸发了'
     Melee:
     - '&4%killer%&3随机送一只狗上了西天'
     Void:
