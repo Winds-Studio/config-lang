@@ -15,7 +15,7 @@ Commands:
     Help:
       - "%prefix%&aDeathMessages 指令帮助:"
       - ""
-      - "&a/deathmessages blacklist <玩家名称> &7-  将玩家列入黑名单，使其无法收到自己的死亡提示，但仍能收到其他玩家的死亡提示."
+      - "&a/deathmessages blacklist <玩家名称> &7- 将玩家列入黑名单，使其无法收到自己的死亡提示，但仍能收到其他玩家的死亡提示."
       - "&a/deathmessages toggle &7- 开启/关闭自己的死亡提示."
       - "&a/deathmessages reload &7- 重载插件配置."
       - "&a/deathmessages edit <player> <mobName> <solo, gang> <damage-type> <add, remove, list> (remove only=Placeholder) &7- 编辑死亡提示."
