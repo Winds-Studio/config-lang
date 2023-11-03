@@ -675,14 +675,14 @@ Mobs:
       - '&4%player%&3被%killer%&3群殴了, 其中一个徒手把他了结了'
   shulker:
     Solo:
-      Projectile-Arrow:
+      Projectile-ShulkerBullet:
       - '&4%player%&3被%killer%&3用%weapon%&3射成了筛子'
       Weapon:
       - '&3%killer%&3用%weapon%&3把&4%player%&3砍成两截'
       Melee:
       - '&4%player%&3被%killer%&3锤成了孙子'
     Gang:
-      Projectile-Arrow:
+      Projectile-ShulkerBullet:
       - '&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3射穿了&4%player%&3的心脏'
       Weapon:
       - '&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3放干了&4%player%&3的最后一滴血'
