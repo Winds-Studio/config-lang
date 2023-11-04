@@ -1,4 +1,4 @@
-# DeathMessages by MrShawn, Dreeam__
+# DeathMessages by Dreeam__ (Original by MrShawn/Joshb_/CosmoConsole[DeathMessagesPrime Author])
 #
 # Disable the default messages from minecraft
 Disable-Default-Messages: true
@@ -44,7 +44,7 @@ Hooks:
       Player:
         Enabled: true
         Channels:
-        - 577106050046623773:1152818380923994182
+        - "577106050046623773:1152818380923994182"
       Mob:
         Enabled: true
         Channels: []
@@ -118,10 +118,11 @@ Death-Listener-Priority: HIGH
 # If enabled, if mobs that have any specified characters from If-Contains, the default mob name will be displayed.
 Rename-Mobs:
   Enabled: true
-  If-Contains: ♡♥❤■
+  If-Contains: "♡♥❤■"
 
 # If enabled, mobs will always default to their entity name. Display names will always be ignored. (Besides players)
 Disable-Named-Mobs: false
+
 Expire-Last-Damage:
   # How long until the last mob that damaged a player expires? (Becomes a natural death cause)
   # Default: 7
@@ -139,7 +140,7 @@ Per-World-Messages: false
 # and not used in the code.
 # If a world a player dies in is not specified, it will only broadcast to the world the player died in.
 World-Groups:
-  '1':
+  1:
   - world
   - world_nether
   - world_the_end
@@ -150,6 +151,7 @@ World-Groups:
 Disabled-Worlds:
 - someDisabledWorld1
 - someOtherDisabledWorld
+
 Private-Messages:
   # All messages will still be sent to the console log no matter the setting.
   # Discord messages will be effected depending on if the below settings are changed.
@@ -176,9 +178,12 @@ Cooldown: 0
 # REGEX is required here.
 Custom-Item-Display-Names-Is-Weapon:
 - '&6SUPER\sCOOL\sGOLDEN\sAPPLE'
-- SICKNAME
+- "SICKNAME"
 
 # Any item materials you list here will return a weapon kill. Not a melee kill
 # Material names are listed here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
 Custom-Item-Material-Is-Weapon:
-- ACACIA_FENCE
+- "ACACIA_FENCE"
+
+# Debug toggle for developer, don't touch!
+Debug: true

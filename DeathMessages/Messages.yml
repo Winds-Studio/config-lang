@@ -1,4 +1,5 @@
-# Chinese translation by Dreeam (Combined with original translation from MCBBS)
+# DeathMessages by Dreeam__ (Original by MrShawn/Joshb_/CosmoConsole[DeathMessagesPrime Author])
+#
 Prefix: "&7[&c死亡提示&7] "
 Console:
   #Send death messages to console
@@ -7,18 +8,19 @@ Console:
 Bungee:
   # Configure how bungee messages look from other servers.
   # Only available placeholder is %server_name%
-  Message: '&a%server_name%&7> '
+  Message: "&a%server_name%&7> "
 Commands:
   DeathMessages:
     Player-Only-Command: "&c该指令只能玩家使用."
     No-Permission: "%prefix%&c你没有权限使用该指令."
     Help:
-      - "%prefix%&aDeathMessages 指令帮助:"
-      - ""
-      - "&a/deathmessages blacklist <玩家名称> &7- 将玩家列入黑名单，使其无法收到自己的死亡提示，但仍能收到其他玩家的死亡提示."
-      - "&a/deathmessages toggle &7- 开启/关闭自己的死亡提示."
-      - "&a/deathmessages reload &7- 重载插件配置."
-      - "&a/deathmessages edit <player> <mobName> <solo, gang> <damage-type> <add, remove, list> (remove only=Placeholder) &7- 编辑死亡提示."
+    - "%prefix%&aDeathMessages 指令帮助:"
+    - ""
+    - "&a/deathmessages blacklist <玩家名称> &7- 将玩家列入黑名单，使其无法收到自己的死亡提示，但仍能收到其他玩家的死亡提示."
+    - "&a/deathmessages toggle &7- 开启/关闭自己的死亡提示."
+    - "&a/deathmessages reload &7- 重载插件配置."
+    - "&a/deathmessages edit <player> <mobName> <solo, gang> <damage-type> <add, remove,
+      list> (remove only=Placeholder) &7- 编辑死亡提示."
     Sub-Commands:
       Reload:
         Reloaded: "%prefix%&a成功重载插件所有配置."
@@ -32,7 +34,8 @@ Commands:
         Blacklist-Remove: "%prefix%&a已将 &e%player% &a移出黑名单."
       Version: "%prefix%&a死亡提示插件版本 %version% 作者: %authors%"
       Edit:
-        Usage: "%prefix%&a/dm edit <player> <mobName> <solo, gang> <damage-type> <add, remove, list> (remove only=Placeholder) &7- 编辑死亡提示."
+        Usage: "%prefix%&a/dm edit <player> <mobName> <solo, gang> <damage-type> <add,
+          remove, list> (remove only=Placeholder) &7- 编辑死亡提示."
         Invalid-Mob-Type: "%prefix%&c你输入的生物名不存在."
         Invalid-Damage-Type: "%prefix%&c你输入的伤害类型不存在. 请使用指令补全指定一个伤害类型."
         Invalid-Arguments: "%prefix%&c未知参数. 请使用 &a/dm edit &c查看指令用法."
@@ -40,22 +43,25 @@ Commands:
         Removed-Message: "%prefix%&c已移除死亡提示: '%message%'"
         Invalid-Selection: "%prefix%&c无法找到带有此占位符的死亡提示."
         Adding-Start: "%prefix%&a 已启用死亡提示添加模式. 请在聊天框中输入你想添加的死亡提示."
-        Added-Message: "%prefix%&aAdded &e'&r%message%&e' &a to %mob_name% > %mode% > %damage_type%"
+        Added-Message: "%prefix%&aAdded &e'&r%message%&e' &a to %mob_name% > %mode%
+          > %damage_type%"
       Backup:
         Usage: "%prefix%&a/dm backup <true, false> &7- 备份插件配置. True将不会保存用户数据, false将会保存用户数据."
         Backed-Up: "%prefix%&a备份 &e#%backup-code% &a已成功保存."
       Restore:
-        Usage: "%prefix%&a/dm restore <backup-code> <true, false> &7- True将不会恢复用户数据, false将会恢复用户数据."
+        Usage: "%prefix%&a/dm restore <backup-code> <true, false> &7- True将不会恢复用户数据,
+          false将会恢复用户数据."
         Restored: "%prefix%&a已从备份 &e#%backup-code% &a恢复插件配置."
         Backup-Not-Found: "%prefix%&c无法找到这个备份."
       # Do not touch this section. If you do. Leave the last line alone.
       DiscordLog:
-        - "%prefix%&3Discord Status Log for support:"
-        - "&7Take a picture of this and send it to the support chat if you created a ticket regarding discord issues:"
-        - "&aDiscord-API-JAR: &c%discordJar%"
-        - "&a密匙 &c(已隐藏)&a: &c%discordToken%"
-        - "&a配置文件输出:"
-        - "%discordConfig%"
+      - "%prefix%&3Discord Status Log for support:"
+      - "&7Take a picture of this and send it to the support chat if you created a
+        ticket regarding discord issues:"
+      - "&aDiscord-API-JAR: &c%discordJar%"
+      - "&a密匙 &c(已隐藏)&a: &c%discordToken%"
+      - "&a配置文件输出:"
+      - "%discordConfig%"
 Discord:
   # %player% - returns the player name
   # %player_display% - returns the custom display name of the player
@@ -76,22 +82,22 @@ Discord:
     # NEW: this was how the old DMP had messages formatted (Playerhead - IconURL, Name - the death message)
     Author:
       # The message of the author
-      Name: '%message%'
+      Name: "%message%"
       # The clickable link
       URL: ""
       # The picture that shows up in the author name
       # Placeholders: %uuid%, %username%
       Icon-URL: "https://crafatar.com/avatars/%uuid%"
     Title: 死亡信息
-    Description: '%message%'
-    Image: https://crafatar.com/avatars/%uuid%
+    Description: "%message%"
+    Image: "https://crafatar.com/avatars/%uuid%"
     # Block title|Block value|inline boolean
     # To have no content, set content to 'Content: []'
     Content:
-      - "位置:|世界: %world%, X坐标: %x%, Y坐标: %y%, Z坐标: %z%|false"
+    - "位置:|世界: %world%, X坐标: %x%, Y坐标: %y%, Z坐标: %z%|false"
     Footer:
       Text: "页脚信息"
-      Icon-URL: https://crafatar.com/avatars/%uuid%
+      Icon-URL: "https://crafatar.com/avatars/%uuid%"
     Timestamp: true
     # Defining the message below will ignore all above embed values and just return regular text.
     # Meaning if you change Text: "" to anything else, the plugin will send regular text.
