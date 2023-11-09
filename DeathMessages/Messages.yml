@@ -22,6 +22,7 @@ Commands:
     - "&a/deathmessages edit <entity, player> <mobName> <solo, gang> <damage-type> <add, remove,
       list> (remove only=Placeholder) &7- 编辑死亡提示."
     - "&a/deathmessages reload &7- 重载插件配置."
+    - "&a/deathmessages restore &7- ."
     - "&a/deathmessages toggle &7- 开启/关闭自己的死亡提示."
     - "&a/deathmessages version &7- Show plugin info and check updates."
     Sub-Commands:
