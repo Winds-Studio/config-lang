@@ -32,7 +32,7 @@ Commands:
         Toggle-On: "%prefix%&a你将自己的死亡提示设为: &l开启"
         Toggle-Off: "%prefix%&a你将自己的死亡提示设为: &c&l关闭"
       Blacklist:
-        Help: "%prefix%&c正确用法: /dm blacklist <玩家名称> - 将玩家列入黑名单. 他们仍然可以看到死亡提示, 但不会发送他们的死亡提示."
+        Help: "%prefix%&a正确用法: /dm blacklist <玩家名称> &7- 将玩家列入黑名单. 他们仍然可以看到死亡提示, 但不会发送他们的死亡提示."
         Username-None-Existent: "%prefix%&c无法找到名为 &e%player% &c的玩家"
         Blacklist-Add: "%prefix%&a已将 &e%player% &a加入黑名单!"
         Blacklist-Remove: "%prefix%&a已将 &e%player% &a移出黑名单."
