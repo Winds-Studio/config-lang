@@ -30,7 +30,7 @@ Hooks:
   CombatLogX:
     Enabled: false
 
-  # If DiscordBotAPI (https://www.spigotmc.org/resources/discordbotapi.86518/) or DiscordSRV
+  # If DiscordBotAPI (https://github.com/HMJosh/DiscordBotAPI/) or DiscordSRV
   # (https://www.spigotmc.org/resources/discordsrv.18494/)is installed, and enabled here.
   # To get the Guild ID and Channel-IDs, you must have developer mode enabled in discord. Then, you will right-click the
   # guild and click on "Copy ID". Then, you will right-click the channel you want to send the messages to and again, click
@@ -140,7 +140,7 @@ Per-World-Messages: false
 # and not used in the code.
 # If a world a player dies in is not specified, it will only broadcast to the world the player died in.
 World-Groups:
-  1:
+  '1':
   - world
   - world_nether
   - world_the_end

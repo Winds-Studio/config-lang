@@ -73,22 +73,43 @@ Basic-Mode:
     - "&4%player%&3被%killer%&3用%weapon%&3射成了筛子"
     Explosion:
     - "&4%player%&3被%killer%&3发射到了太空"
+    Projectile-Fireball:
+    - "&4%player%&3被%killer%&3的火焰弹烤的酥脆"
+    Projectile-ShulkerBullet:
+    - "&4%player%&3被%killer%&3用%weapon%&3射成了筛子"
+    Projectile-Trident:
+    - "&4%player%&3被%killer%&3用%weapon%&3射成了筛子"
     Magic:
     - "&4%player%&3被%killer%&3用魔法传送到了另一个空间"
+    Sonic-Boom:
+    - "&4%player%&3觉得TA的世界没有声音"
     Weapon:
     - "&3%killer%&3用%weapon%&3把&4%player%&3砍成两截"
     Melee:
     - "&4%player%&3被%killer%&3锤成了孙子"
+    Contact:
+    - "&4%player%&3被%killer%&3推进了仙人掌"
   Gang:
     Projectile-Arrow:
     - "&4%player%&3被%killer%&3群殴, 其中一个使用%weapon%&3射穿了&4%player%&3的心脏"
+    Explosion:
+    - "&4%player%&3试图接近一群%killer%&3时被扔到了太空"
+    Projectile-Fireball:
+    - "&4%player%&3被%killer%&3释放的集群%weapon%引爆了"
+    Projectile-ShulkerBullet:
+    - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3射穿了&4%player%&3的心脏"
+    Projectile-Trident:
+    - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3射穿了&4%player%&3的心脏"
     Magic:
     - "&4%player%&3被一群%killer%&3当成了祭品"
+    Sonic-Boom:
+    - "&4%player%&3觉得TA的电脑音量不够大"
     Weapon:
     - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3放干了&4%player%&3的最后一滴血"
     Melee:
     - "&4%player%&3被%killer%&3群殴了, 其中一个徒手把他了结了"
-
+    Contact:
+    - "&4%player%&3被一群%killer%&3推进了仙人掌"
 Natural-Cause:
   Bed:
   - "&4%player%&3尝试在%world_environment%进入另一个空间"
@@ -335,6 +356,8 @@ Mobs:
     Gang:
       Projectile-Arrow:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3射穿了&4%player%&3的心脏"
+      Magic:
+      - "&4%player%&3被一群%killer%&3当成了祭品"
       Weapon:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3放干了&4%player%&3的最后一滴血"
       Melee:
@@ -399,6 +422,8 @@ Mobs:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3射穿了&4%player%&3的心脏"
       Weapon:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3放干了&4%player%&3的最后一滴血"
+      Explosion:
+      - "&4%player%&3试图接近一群%killer%&3时被扔到了太空"
       Melee:
       - "&4%player%&3被%killer%&3群殴了, 其中一个徒手把他了结了"
   skeleton:
@@ -480,6 +505,8 @@ Mobs:
     Solo:
       Projectile-Arrow:
       - "&4%player%&3被%killer%&3用%weapon%&3射成了筛子"
+      Projectile-Fireball:
+      - "&4%player%&3被&3%killer%&3的%weapon%炸飞了"
       Weapon:
       - "&3%killer%&3用%weapon%&3把&4%player%&3砍成两截"
       Melee:
@@ -487,6 +514,8 @@ Mobs:
     Gang:
       Projectile-Arrow:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3射穿了&4%player%&3的心脏"
+      Projectile-Fireball:
+      - "&4%player%&3被%killer%&3释放的集群%weapon%引爆了"
       Weapon:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3放干了&4%player%&3的最后一滴血"
       Melee:
@@ -555,6 +584,8 @@ Mobs:
     Solo:
       Projectile-Arrow:
       - "&4%player%&3被%killer%&3用%weapon%&3射成了筛子"
+      Projectile-Fireball:
+      - "&4%player%&3被&3%killer%&3的%weapon%炸飞了"
       Weapon:
       - "&3%killer%&3用%weapon%&3把&4%player%&3砍成两截"
       Melee:
@@ -562,6 +593,8 @@ Mobs:
     Gang:
       Projectile-Arrow:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3射穿了&4%player%&3的心脏"
+      Projectile-Fireball:
+      - "&4%player%&3被%killer%&3释放的集群%weapon%引爆了"
       Weapon:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3放干了&4%player%&3的最后一滴血"
       Melee:
@@ -613,6 +646,10 @@ Mobs:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3射穿了&4%player%&3的心脏"
       Weapon:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3放干了&4%player%&3的最后一滴血"
+      Explosion:
+      - "&4%player%&3试图接近一群%killer%&3时被扔到了太空"
+      Projectile-Fireball:
+      - "&4%player%&3被%killer%&3释放的集群%weapon%引爆了"
       Melee:
       - "&4%player%&3被%killer%&3群殴了, 其中一个徒手把他了结了"
   bat:
@@ -636,6 +673,8 @@ Mobs:
       - "&4%player%&3被%killer%&3用%weapon%&3射成了筛子"
       Weapon:
       - "&3%killer%&3用%weapon%&3把&4%player%&3砍成两截"
+      Magic:
+      - "&4%player%&3被%killer%&3用魔法传送到了另一个空间"
       Melee:
       - "&4%player%&3被%killer%&3锤成了孙子"
     Gang:
@@ -643,6 +682,8 @@ Mobs:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3射穿了&4%player%&3的心脏"
       Weapon:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3放干了&4%player%&3的最后一滴血"
+      Magic:
+      - "&4%player%&3被一群%killer%&3当成了祭品"
       Melee:
       - "&4%player%&3被%killer%&3群殴了, 其中一个徒手把他了结了"
   endermite:
@@ -677,6 +718,8 @@ Mobs:
       - "&4%player%&3被%killer%&3群殴了, 其中一个徒手把他了结了"
   shulker:
     Solo:
+      Projectile-Arrow:
+      - "&4%player%&3被%killer%&3用%weapon%&3射成了筛子"
       Projectile-ShulkerBullet:
       - "&4%player%&3被%killer%&3用%weapon%&3射成了筛子"
       Weapon:
@@ -684,6 +727,8 @@ Mobs:
       Melee:
       - "&4%player%&3被%killer%&3锤成了孙子"
     Gang:
+      Projectile-Arrow:
+      - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3射穿了&4%player%&3的心脏"
       Projectile-ShulkerBullet:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3射穿了&4%player%&3的心脏"
       Weapon:
@@ -887,6 +932,8 @@ Mobs:
       - "&4%player%&3被%killer%&3被饥饿的熊熊们撕碎了"
   llama:
     Solo:
+      Projectile-LlamaSpit:
+      - "&4%player%&3被%killer%&3用唾沫淹死了"
       Projectile-Arrow:
       - "&4%player%&3被%killer%&3用%weapon%&3射成了筛子"
       Weapon:
@@ -894,6 +941,8 @@ Mobs:
       Melee:
       - "&4%player%&3被%killer%&3的口水淹死了"
     Gang:
+      Projectile-LlamaSpit:
+      - "%player%在%killer%的唇枪舌剑中意外溺亡"
       Projectile-Arrow:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3射穿了&4%player%&3的心脏"
       Weapon:
@@ -1022,6 +1071,8 @@ Mobs:
       - "&4%player%&3被%killer%&3群殴了, 其中一个徒手把他了结了"
   drowned:
     Solo:
+      Projectile-Arrow:
+      - "&4%player%&3被%killer%&3用%weapon%&3射成了筛子"
       Projectile-Trident:
       - "&4%player%&3被%killer%&3用%weapon%&3射成了筛子"
       Weapon:
@@ -1029,6 +1080,8 @@ Mobs:
       Melee:
       - "&4%player%&3被%killer%&3锤成了孙子"
     Gang:
+      Projectile-Arrow:
+      - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3射穿了&4%player%&3的心脏"
       Projectile-Trident:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3射穿了&4%player%&3的心脏"
       Weapon:
@@ -1091,6 +1144,8 @@ Mobs:
       Melee:
       - "&4%player%&3被%killer%&3锤成了孙子"
     Gang:
+      Contact:
+      - "&4%player%&3被一群%killer%&3推进了仙人掌"
       Projectile-Arrow:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3射穿了&4%player%&3的心脏"
       Weapon:
@@ -1247,6 +1302,26 @@ Mobs:
       - "&4%player%&3被%killer%&3群殴了, 其中有一个使用%weapon%&3放干了&4%player%&3的最后一滴血"
       Melee:
       - "&4%player%&3被%killer%&3群殴了, 其中一个徒手把他了结了"
+  # 1.17
+  goat:
+    Solo:
+      Melee:
+      - "&4%player%&3被%killer%&3开着泥头车创死了"
+    Gang:
+      Melee:
+      - "&4%player%&3被一群%killer%&3扔到了另一个维度"
+  # 1.19
+  warden:
+    Solo:
+      Melee:
+      - "&4%player%&3打扰到了%killer%&3的美梦"
+      Sonic-Boom:
+      - "&4%player%&3觉得TA的世界没有声音"
+    Gang:
+      Melee:
+      - "&4%player%&3惹怒了一群有起床气的%killer%"
+      Sonic-Boom:
+      - "&4%player%&3觉得TA的电脑音量不够大"
   player:
     Solo:
       Bed:
@@ -1298,25 +1373,6 @@ Mobs:
       - "&4%player%&3惨遭&3%killer%&3的群殴, 最后被&9%weapon%&3砍成两段"
       Melee:
       - "&4%player%&3被&3%killer%&3一群人群殴致死"
-  goat:
-    Solo:
-      Melee:
-      - "&4%player%&3被%killer%&3开着泥头车创死了"
-    Gang:
-      Melee:
-      - "&4%player%&3被一群%killer%&3扔到了另一个维度"
-  warden:
-    Solo:
-      Melee:
-      - "&4%player%&3打扰到了%killer%&3的美梦"
-      Sonic-Boom:
-      - "&4%player%&3觉得TA的世界没有声音"
-    Gang:
-      Melee:
-      - "&4%player%&3惹怒了一群有起床气的%killer%"
-      Sonic-Boom:
-      - "&4%player%&3觉得TA的电脑音量不够大"
-
 Custom-Mobs:
   Mythic-Mobs:
     SkeletalMinion:
