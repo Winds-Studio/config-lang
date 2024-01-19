@@ -107,8 +107,9 @@ Discord:
     # You may use \n to make another line.
     # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
     Text: ""
+
 #Translations
-# Mobs: these translations will effect the %killer_type% placeholder
+# Mobs: these translations will affect the %killer_type% placeholder
 Mobs:
   elderguardian: "远古守卫者"
   witherskeleton: "凋灵骷髅"

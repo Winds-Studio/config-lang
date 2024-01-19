@@ -47,7 +47,7 @@ Entities:
     Projectile-Arrow:
     - "&4%killer%&3 360'd Y Y'd a poor little doggy using %weapon%"
     Weapon:
-    - "&4%killer%&3使用%weapon%悄悄把一只狗从人间蒸发了"
+    - "&4%killer%&3使用 %weapon% 悄悄把一只狗从人间蒸发了"
     Melee:
     - "&4%killer%&3随机送一只狗上了西天"
     Void:
@@ -68,6 +68,6 @@ Mythic-Mobs-Entities:
     Melee:
     - "&4%killer%&3赤手空拳地将%entity_display%置于死地"
     Weapon:
-    - "&4%killer%&3使用%weapon%轻易地战胜了%entity_display%"
+    - "&4%killer%&3使用 %weapon% 轻易地战胜了%entity_display%"
     TNT:
     - "&4%killer%&3使用TNT将%entity_display%传送到了另一个空间"
