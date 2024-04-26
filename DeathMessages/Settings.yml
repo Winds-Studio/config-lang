@@ -35,8 +35,7 @@ Hooks:
   CombatLogX:
     Enabled: false
 
-  # If DiscordBotAPI (https://github.com/HMJosh/DiscordBotAPI/) or DiscordSRV
-  # (https://www.spigotmc.org/resources/discordsrv.18494/)is installed, and enabled here.
+  # If DiscordSRV (https://www.spigotmc.org/resources/discordsrv.18494/) is installed, and enabled here.
   # To get the Guild ID and Channel-IDs, you must have developer mode enabled in discord. Then, you will right-click the
   # guild and click on "Copy ID". Then, you will right-click the channel you want to send the messages to and again, click
   # "Copy ID". The format for the list of Channels is: "guild_ID:channel_ID"
@@ -49,7 +48,7 @@ Hooks:
       Player:
         Enabled: true
         Channels:
-        - "577106050046623773:1152818380923994182"
+        - 577106050046623773:1152818380923994182
       Mob:
         Enabled: true
         Channels: []
@@ -93,7 +92,7 @@ Saved-User-Data: false
 Disable-Weapon-Kill-With-No-Custom-Name:
   Enabled: false
 
-  #If enabled, weapons with default display names (white) will be overridden with the message color.
+  # If enabled, weapons with default display names (white) will be overridden with the message color.
   # So if the last word is red, then if this is enabled, the weapon name will be red as well.
   # NOT WORKING YET, NOT WORKING YET, NOT WORKING YET, NOT WORKING YET, NOT WORKING YET, NOT WORKING YET,
   Allow-Message-Color-Override: true
@@ -109,11 +108,11 @@ Disable-Weapon-Kill-With-No-Custom-Name:
 
 # If enabled, if a player was pushed into the void by a killer, and void kill message is not defined, use melee death.
 # This option is ignored if Default-Natural-Death-Not-Defined is set to true.
-Default-Melee-Last-Damage-Not-Defined: false
+Default-Melee-Last-Damage-Not-Defined: true
 
 # If enabled, for example, if a player was pushed into the void by a killer,
 # and void kill message is not defined in the player section, natural death message will be used.
-Default-Natural-Death-Not-Defined: false
+Default-Natural-Death-Not-Defined: true
 
 # Set the listener call priority for death messages.
 # LOWEST, LOW, NORMAL, HIGH, HIGHEST are allowed
@@ -123,10 +122,14 @@ Death-Listener-Priority: HIGH
 # If enabled, if mobs that have any specified characters from If-Contains, the default mob name will be displayed.
 Rename-Mobs:
   Enabled: true
-  If-Contains: "♡♥❤■"
+  If-Contains: ♡♥❤■
 
 # If enabled, mobs will always default to their entity name. Display names will always be ignored. (Besides players)
 Disable-Named-Mobs: false
+
+# If enabled, player killed by ender dragon will use death message of
+# `Natural-Cause.Dragon-Breath. instead of `Natural-Cause.Melee`
+Fix-MC-84595: true
 
 # If enabled, if the item/mob has no custom name, the display of the name will base on player's client locale.
 I18N-Display:
@@ -160,7 +163,6 @@ World-Groups:
 Disabled-Worlds:
 - someDisabledWorld1
 - someOtherDisabledWorld
-
 Private-Messages:
   # All messages will still be sent to the console log no matter the setting.
   # Discord messages will be effected depending on if the below settings are changed.
@@ -178,7 +180,7 @@ Private-Messages:
 # Cooldown time in seconds
 # Console messages ignore cooldowns and will still send to console
 # Default: 0 (disabled)
-Cooldown: 0
+Cooldown: 3
 
 # Custom Items
 
@@ -187,12 +189,20 @@ Cooldown: 0
 # REGEX is required here.
 Custom-Item-Display-Names-Is-Weapon:
 - '&6SUPER\sCOOL\sGOLDEN\sAPPLE'
-- "SICKNAME"
+- SICKNAME
 
 # Any item materials you list here will return a weapon kill. Not a melee kill
 # Material names are listed here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
 Custom-Item-Material-Is-Weapon:
-- "ACACIA_FENCE"
+- ACACIA_FENCE
+
+# Custom kill/suicide commands
+
+# If your plugins use custom kill or suicide like commands, add them to this list
+# When players die using command from the list, then use `Natural-Cause.Suicide` as the death message
+Custom-Suicide-Commands:
+- /kill
+- /suicide
 
 # Debug toggle for developer, don't touch!
 Debug: true

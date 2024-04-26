@@ -13,7 +13,7 @@
 # %weapon% - returns a tooltip of the item name, lore, and enchantments
 # %entity% - returns the entity's type. (Defined in Messages.yml in the Mobs section)
 # %entity_display% - returns the entity's custom name. If it has no name, it will default to %entity%
-# %biome% - returns the biome the player was in
+# %biome% - returns the biome name the player located
 # %world% - returns the world name
 # %world_environment% - returns the environment of the world (normal, nether, the_end) (These are configurable in Messages.yml (Environment))
 # %x% - returns the x position the player died at.
@@ -27,9 +27,9 @@
 # Actions must start with either COMMAND:, or SUGGEST_COMMAND:
 # You can add lines in the hover messages like so "line one\nLine Two....."
 # Examples:
-# "%player% was killed by %killer%::&cLocations: X:%x%, Y:%y%, Z:%z%::COMMAND:tppos %x% %y% %z%"
-# "%player% was killed by %killer%::&cLocations: X:%x%, Y:%y%, Z:%z%"
-# "%player% was killed by %killer%::&cLocations: X:%x%, Y:%y%, Z:%z%::SUGGEST_COMMAND:msg %player% lol noob"
+# "%player% was killed by [%killer%::&cLocations: X:%x%, Y:%y%, Z:%z%::COMMAND::tppos %x% %y% %z%]"
+# "%player% was killed by [%killer%::&cLocations: X:%x%, Y:%y%, Z:%z%]"
+# "%player% was killed by [%killer%::&cLocations: X:%x%, Y:%y%, Z:%z%::SUGGEST_COMMAND::msg %player% lol noob]"
 #
 # !!!!!!!!!!!!!!!!!!!!LOOK HERE :EYES: :EYES:!!!!!!!!!!!!!!!!!!!!!!!!!
 # If you do not want to use this feature of the plugin. Setup this config like so:
@@ -38,36 +38,36 @@
 #
 # That's it.
 
-#Vanilla Entities
+# Vanilla Entities
 Entities:
   # Below is an example of how this section is setup. You can use any death-type like in PlayerDeathMessages.yml
   wolf:
     Tamed:
-    - "&4%killer%&3杀死了%owner%的%entity%"
+    - '&4%killer%&3杀死了%owner%的%entity%'
     Projectile-Arrow:
-    - "&4%killer%&3 360'd Y Y'd a poor little doggy using %weapon%"
+    - '&4%killer%&3 360''d Y Y''d a poor little doggy using %weapon%'
     Weapon:
-    - "&4%killer%&3使用 %weapon% 悄悄把一只狗从人间蒸发了"
+    - '&4%killer%&3使用 %weapon% 悄悄把一只狗从人间蒸发了'
     Melee:
-    - "&4%killer%&3随机送一只狗上了西天"
+    - '&4%killer%&3随机送一只狗上了西天'
     Void:
-    - "&4%killer%&3随机挑选了一只狗推进了虚空"
+    - '&4%killer%&3随机挑选了一只狗推进了虚空'
     TNT:
-    - "&4%killer%&3尝试将一只狗发射出去!"
+    - '&4%killer%&3尝试将一只狗发射出去!'
     Respawn-Anchor:
-    - "&4%killer%&3尝试用重生锚将一只狗发射出去"
+    - '&4%killer%&3尝试用重生锚将一只狗发射出去'
   enderdragon:
     Projectile-Arrow:
-    - "&4%killer% &3360'd Y Y'd the &6&lEnder Dragon &cusing %weapon%"
+    - '&4%killer% &3360''d Y Y''d the &6&lEnder Dragon &cusing %weapon%'
     Melee:
-    - "&4%killer%&3征服了末影龙!"
+    - '&4%killer%&3征服了末影龙!'
 
-#Mythic-Mob Entities https://mythiccraft.io/index.php?resources/mythicmobs.1/
+# Mythic-Mob Entities https://mythiccraft.io/index.php?resources/mythicmobs.1/
 Mythic-Mobs-Entities:
   SkeletalMinion:
     Melee:
-    - "&4%killer%&3赤手空拳地将%entity_display%置于死地"
+    - '&4%killer%&3赤手空拳地将%entity_display%置于死地'
     Weapon:
-    - "&4%killer%&3使用 %weapon% 轻易地战胜了%entity_display%"
+    - '&4%killer%&3使用 %weapon% 轻易地战胜了%entity_display%'
     TNT:
-    - "&4%killer%&3使用TNT将%entity_display%传送到了另一个空间"
+    - '&4%killer%&3使用TNT将%entity_display%传送到了另一个空间'

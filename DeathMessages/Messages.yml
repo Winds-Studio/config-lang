@@ -1,70 +1,70 @@
 # DeathMessages by Dreeam__ (Original by MrShawn/Joshb_/CosmoConsole[DeathMessagesPrime Author])
 #
-Prefix: "&7[&c死亡提示&7] "
+Prefix: '&7[&c死亡提示&7] '
 Console:
   #Send death messages to console
   Enabled: true
-  Message: "%message% (信息: 世界:%world%, X坐标:%x%, Y坐标:%y%, Z坐标:%z%)"
+  Message: '%message% (信息: 世界:%world%, X坐标:%x%, Y坐标:%y%, Z坐标:%z%)'
 Bungee:
   # Configure how bungee messages look from other servers.
   # Only available placeholder is %server_name%
-  Message: "&a%server_name%&7> "
+  Message: '&a%server_name%&7> '
 Commands:
   DeathMessages:
-    Player-Only-Command: "&c该指令只能玩家使用."
-    No-Permission: "%prefix%&c你没有权限使用该指令."
+    Player-Only-Command: '&c该指令只能玩家使用.'
+    No-Permission: '%prefix%&c你没有权限使用该指令.'
     Help:
-    - "%prefix%&aDeathMessages 指令帮助:"
-    - ""
-    - "&a/deathmessages backup &7- 备份DeathMessages插件配置和语言文件."
-    - "&a/deathmessages blacklist <玩家名称> &7- 将玩家列入黑名单，使其无法收到自己的死亡提示，但仍能收到其他玩家的死亡提示."
-    - "&a/deathmessages discordlog &7- 显示DiscordSRV <-> DeathMessages连接配置."
-    - "&a/deathmessages edit <entity, player> <mobName> <solo, gang> <damage-type>
-      <add, remove, list> (remove only=Placeholder) &7- 编辑死亡提示."
-    - "&a/deathmessages reload &7- 重载插件配置."
-    - "&a/deathmessages restore &7- 从备份中恢复配置."
-    - "&a/deathmessages toggle &7- 开启/关闭自己的死亡提示."
-    - "&a/deathmessages version &7- 显示插件信息并检查新版本更新."
+    - '%prefix%&aDeathMessages 指令帮助:'
+    - ''
+    - '&a/deathmessages backup &7- 备份DeathMessages插件配置和语言文件.'
+    - '&a/deathmessages blacklist <玩家名称> &7- 将玩家列入黑名单，使其无法收到自己的死亡提示，但仍能收到其他玩家的死亡提示.'
+    - '&a/deathmessages discordlog &7- 显示DiscordSRV <-> DeathMessages连接配置.'
+    - '&a/deathmessages edit <entity, player> <mobName> <solo, gang> <damage-type>
+      <add, remove, list> (remove only=Placeholder) &7- 编辑死亡提示.'
+    - '&a/deathmessages reload &7- 重载插件配置.'
+    - '&a/deathmessages restore &7- 从备份中恢复配置.'
+    - '&a/deathmessages toggle &7- 开启/关闭自己的死亡提示.'
+    - '&a/deathmessages version &7- 显示插件信息并检查新版本更新.'
     Sub-Commands:
       Reload:
-        Reloaded: "%prefix%&a成功重载插件所有配置."
+        Reloaded: '%prefix%&a成功重载插件所有配置.'
       Toggle:
-        Toggle-On: "%prefix%&a你将自己的死亡提示设为: &l开启"
-        Toggle-Off: "%prefix%&a你将自己的死亡提示设为: &c&l关闭"
+        Toggle-On: '%prefix%&a你将自己的死亡提示设为: &l开启'
+        Toggle-Off: '%prefix%&a你将自己的死亡提示设为: &c&l关闭'
       Blacklist:
-        Help: "%prefix%&a正确用法: /dm blacklist <玩家名称> &7- 将玩家列入黑名单. 他们仍然可以看到死亡提示, 但不会发送他们的死亡提示."
-        Username-None-Existent: "%prefix%&c无法找到名为 &e%player% &c的玩家"
-        Blacklist-Add: "%prefix%&a已将 &e%player% &a加入黑名单!"
-        Blacklist-Remove: "%prefix%&a已将 &e%player% &a移出黑名单."
-      Version: "%prefix%&a死亡提示插件版本 %version% 作者: %authors%"
+        Help: '%prefix%&a正确用法: /dm blacklist <玩家名称> &7- 将玩家列入黑名单. 他们仍然可以看到死亡提示, 但不会发送他们的死亡提示.'
+        Username-None-Existent: '%prefix%&c无法找到名为 &e%player% &c的玩家'
+        Blacklist-Add: '%prefix%&a已将 &e%player% &a加入黑名单!'
+        Blacklist-Remove: '%prefix%&a已将 &e%player% &a移出黑名单.'
+      Version: '%prefix%&a死亡提示插件版本 %version% 作者: %authors%'
       Edit:
-        Usage: "%prefix%&a/dm edit <player> <mobName> <solo, gang> <damage-type> <add,
-          remove, list> (remove only=Placeholder) &7- 编辑死亡提示."
-        Invalid-Mob-Type: "%prefix%&c你输入的生物名不存在."
-        Invalid-Damage-Type: "%prefix%&c你输入的伤害类型不存在. 请使用指令补全指定一个伤害类型."
-        Invalid-Arguments: "%prefix%&c未知参数. 请使用 &a/dm edit &c查看指令用法."
-        Invalid-Placeholder: "%prefix%&c你所输入的占位符必须是数字."
-        Removed-Message: "%prefix%&c已移除死亡提示: '%message%'"
-        Invalid-Selection: "%prefix%&c无法找到带有此占位符的死亡提示."
-        Adding-Start: "%prefix%&a 已启用死亡提示添加模式. 请在聊天框中输入你想添加的死亡提示."
-        Added-Message: "%prefix%&aAdded &e'&r%message%&e' &a to %mob_name% > %mode%
-          > %damage_type%"
+        Usage: '%prefix%&a/dm edit <player> <mobName> <solo, gang> <damage-type> <add,
+          remove, list> (remove only=Placeholder) &7- 编辑死亡提示.'
+        Invalid-Mob-Type: '%prefix%&c你输入的生物名不存在.'
+        Invalid-Damage-Type: '%prefix%&c你输入的伤害类型不存在. 请使用指令补全指定一个伤害类型.'
+        Invalid-Arguments: '%prefix%&c未知参数. 请使用 &a/dm edit &c查看指令用法.'
+        Invalid-Placeholder: '%prefix%&c你所输入的占位符必须是数字.'
+        Removed-Message: '%prefix%&c已移除死亡提示: ''%message%'''
+        Invalid-Selection: '%prefix%&c无法找到带有此占位符的死亡提示.'
+        Adding-Start: '%prefix%&a 已启用死亡提示添加模式. 请在聊天框中输入你想添加的死亡提示.'
+        Added-Message: '%prefix%&aAdded &e''&r%message%&e'' &a to %mob_name% > %mode%
+          > %damage_type%'
       Backup:
-        Usage: "%prefix%&a/dm backup <true, false> &7- 备份插件配置. True将不会保存用户数据, false将会保存用户数据."
-        Backed-Up: "%prefix%&a备份 &e#%backup-code% &a已成功保存."
+        Usage: '%prefix%&a/dm backup <true, false> &7- 备份插件配置. True将不会保存用户数据, false将会保存用户数据.'
+        Backed-Up: '%prefix%&a备份 &e#%backup-code% &a已成功保存.'
       Restore:
-        Usage: "%prefix%&a/dm restore <backup-code> <true, false> &7- True将不会恢复用户数据,
-          false将会恢复用户数据."
-        Restored: "%prefix%&a已从备份 &e#%backup-code% &a恢复插件配置."
-        Backup-Not-Found: "%prefix%&c无法找到这个备份."
+        Usage: '%prefix%&a/dm restore <backup-code> <true, false> &7- True将不会恢复用户数据,
+          false将会恢复用户数据.'
+        Restored: '%prefix%&a已从备份 &e#%backup-code% &a恢复插件配置.'
+        Backup-Not-Found: '%prefix%&c无法找到这个备份.'
       DiscordLog:
-      - "%prefix%&3Discord Status Log for support:"
-      - "&7Take a picture of this and send it to the support chat if you created a
-        ticket regarding discord issues:"
-      - "&aDiscord-API-JAR: &c%discordJar%"
-      - "&a密匙 &c(已隐藏)&a: &c%discordToken%"
-      - "&a配置文件输出:"
-      - "%discordConfig%"
+      - '%prefix%&3Discord Status Log for support:'
+      - '&7Take a picture of this and send it to the support chat if you created a
+        ticket regarding discord issues:'
+      - '&aDiscord-API-JAR: &c%discordJar%'
+      - '&a密匙 &c(已隐藏)&a: &c%discordToken%'
+      - '&a配置文件输出:'
+      - '%discordConfig%'
 Discord:
   # %player% - returns the player name
   # %player_display% - returns the custom display name of the player
@@ -85,117 +85,112 @@ Discord:
     # NEW: this was how the old DMP had messages formatted (Playerhead - IconURL, Name - the death message)
     Author:
       # The message of the author
-      Name: "%message%"
+      # The message of the author
+      Name: '%message%'
       # The clickable link
-      URL: ""
+      URL: ''
       # The picture that shows up in the author name
       # Placeholders: %uuid%, %username%
-      Icon-URL: "https://cravatar.eu/helmavatar/%username%"
+      Icon-URL: https://cravatar.eu/helmavatar/%username%
     Title: 死亡信息
-    Description: "%message%"
-    Image: "https://cravatar.eu/helmavatar/%username%"
-    # Block title|Block value|inline boolean
-    # To have no content, set content to 'Content: []'
+    Description: '%message%'
+    Image: https://cravatar.eu/helmavatar/%username%
     Content:
-    - "位置:|世界: %world%, X坐标: %x%, Y坐标: %y%, Z坐标: %z%|false"
+    - '位置:|世界: %world%, X坐标: %x%, Y坐标: %y%, Z坐标: %z%|false'
     Footer:
-      Text: "页脚信息"
-      Icon-URL: "https://cravatar.eu/helmavatar/%username%"
+      Text: 页脚信息
+      Icon-URL: https://cravatar.eu/helmavatar/%username%
     Timestamp: true
-    # Defining the message below will ignore all above embed values and just return regular text.
-    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
-    # You may use \n to make another line.
-    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
-    Text: ""
+    Text: ''
 
 #Translations
 # Mobs: these translations will affect the %killer_type% placeholder
 Mobs:
-  elderguardian: "远古守卫者"
-  witherskeleton: "凋灵骷髅"
-  stray: "流浪者"
-  husk: "尸壳"
-  zombievillager: "僵尸村民"
-  skeletonhorse: "骷髅马"
-  zombiehorse: "僵尸马"
-  armorstand: "盔甲架"
-  donkey: "驴"
-  mule: "骡"
-  evoker: "唤魔者"
-  vex: "恼鬼"
-  vindicator: "卫道士"
-  illusioner: "幻术师"
-  creeper: "苦力怕"
-  skeleton: "骷髅"
-  spider: "蜘蛛"
-  giant: "巨人"
-  zombie: "僵尸"
-  slime: "史莱姆"
-  ghast: "恶魂"
-  pigzombie: "僵尸猪灵"
-  enderman: "末影人"
-  cavespider: "洞穴蜘蛛"
-  silverfish: "蠹虫"
-  blaze: "烈焰人"
-  magmacube: "岩浆怪"
-  enderdragon: "末影龙"
-  wither: "凋灵"
-  bat: "蝙蝠"
-  witch: "女巫"
-  endermite: "末影螨"
-  guardian: "守卫者"
-  shulker: "潜影贝"
-  pig: "猪"
-  sheep: "棉羊"
-  cow: "牛"
-  chicken: "鸡"
-  squid: "鱿鱼"
-  wolf: "狼"
-  mushroomcow: "哞菇"
-  snowman: "雪傀儡"
-  ocelot: "豹猫"
-  irongolem: "铁傀儡"
-  horse: "马"
-  rabbit: "兔子"
-  polarbear: "北极熊"
-  llama: "羊驼"
-  parrot: "鹦鹉"
-  villager: "村民"
-  turtle: "海龟"
-  phantom: "幻翼"
-  cod: "鳕鱼"
-  salmon: "鲑鱼"
-  pufferfish: "河豚"
-  tropicalfish: "热带鱼"
-  drowned: "溺尸"
-  dolphin: "海豚"
-  cat: "猫"
-  panda: "熊猫"
-  pillager: "掠夺者"
-  ravager: "劫掠兽"
-  traderllama: "行商羊驼"
-  wanderingtrader: "流浪商人"
-  fox: "狐狸"
-  bee: "蜜蜂"
-  hoglin: "疣猪兽"
-  piglin: "猪灵"
-  strider: "炽足兽"
-  zoglin: "僵尸疣猪兽"
-  piglinbrute: "猪灵蛮兵"
-  goat: "山羊"
-  glow_squid: "发光鱿鱼"
-  axolotl: "美西螈"
+  elderguardian: 远古守卫者
+  witherskeleton: 凋灵骷髅
+  stray: 流浪者
+  husk: 尸壳
+  zombievillager: 僵尸村民
+  skeletonhorse: 骷髅马
+  zombiehorse: 僵尸马
+  armorstand: 盔甲架
+  donkey: 驴
+  mule: 骡
+  evoker: 唤魔者
+  vex: 恼鬼
+  vindicator: 卫道士
+  illusioner: 幻术师
+  creeper: 苦力怕
+  skeleton: 骷髅
+  spider: 蜘蛛
+  giant: 巨人
+  zombie: 僵尸
+  slime: 史莱姆
+  ghast: 恶魂
+  pigzombie: 僵尸猪灵
+  enderman: 末影人
+  cavespider: 洞穴蜘蛛
+  silverfish: 蠹虫
+  blaze: 烈焰人
+  magmacube: 岩浆怪
+  enderdragon: 末影龙
+  wither: 凋灵
+  bat: 蝙蝠
+  witch: 女巫
+  endermite: 末影螨
+  guardian: 守卫者
+  shulker: 潜影贝
+  pig: 猪
+  sheep: 棉羊
+  cow: 牛
+  chicken: 鸡
+  squid: 鱿鱼
+  wolf: 狼
+  mushroomcow: 哞菇
+  snowman: 雪傀儡
+  ocelot: 豹猫
+  irongolem: 铁傀儡
+  horse: 马
+  rabbit: 兔子
+  polarbear: 北极熊
+  llama: 羊驼
+  parrot: 鹦鹉
+  villager: 村民
+  turtle: 海龟
+  phantom: 幻翼
+  cod: 鳕鱼
+  salmon: 鲑鱼
+  pufferfish: 河豚
+  tropicalfish: 热带鱼
+  drowned: 溺尸
+  dolphin: 海豚
+  cat: 猫
+  panda: 熊猫
+  pillager: 掠夺者
+  ravager: 劫掠兽
+  traderllama: 行商羊驼
+  wanderingtrader: 流浪商人
+  fox: 狐狸
+  bee: 蜜蜂
+  hoglin: 疣猪兽
+  piglin: 猪灵
+  strider: 炽足兽
+  zoglin: 僵尸疣猪兽
+  piglinbrute: 猪灵蛮兵
+  goat: 山羊
+  glow_squid: 发光鱿鱼
+  axolotl: 美西螈
 Blocks:
-  ladder: "梯子"
-  anvil: "铁砧"
-  vine: "藤蔓"
-  twisted_vines_plant: "缠怨藤"
-  weeping_vines_plant: "垂泪藤"
-  cave_vines_plant: "洞穴藤蔓"
-  scaffolding: "脚手架"
-  chain: "锁链"
+  ladder: 梯子
+  anvil: 铁砧
+  vine: 藤蔓
+  twisted_vines_plant: 缠怨藤
+  weeping_vines_plant: 垂泪藤
+  cave_vines_plant: 洞穴藤蔓
+  scaffolding: 脚手架
+  chain: 锁链
 Environment:
-  normal: "主世界"
-  nether: "下界"
-  the_end: "末地"
-  unknown: "未知"
+  normal: 主世界
+  nether: 下界
+  the_end: 末地
+  unknown: 未知
