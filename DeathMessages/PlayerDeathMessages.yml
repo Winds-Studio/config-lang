@@ -1332,6 +1332,21 @@ Mobs:
       - '&4%player%&3惹怒了一群有起床气的&6%killer%'
       Sonic-Boom:
       - '&4%player%&3觉得TA的电脑音量不够大'
+  # 1.21
+  bogged:
+    Solo:
+      Melee:
+      - '&4%player%&3被&6%killer%&3锤成了孙子'
+    Gang:
+      Melee:
+      - '&4%player%&3被&6%killer%&3群殴了, 其中一个徒手把他了结了'
+  breeze:
+    Solo:
+      Melee:
+      - '&4%player%&3被&6%killer%&3锤成了孙子'
+    Gang:
+      Melee:
+      - '&4%player%&3被&6%killer%&3群殴了, 其中一个徒手把他了结了'
   player:
     Solo:
       Bed:

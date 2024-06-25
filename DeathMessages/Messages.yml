@@ -2,7 +2,7 @@
 #
 Prefix: '&7[&c死亡提示&7] '
 Console:
-  #Send death messages to console
+  # Send death messages to console
   Enabled: true
   Message: '%message% (信息: 世界:%world%, X坐标:%x%, Y坐标:%y%, Z坐标:%z%)'
 Bungee:
@@ -85,7 +85,6 @@ Discord:
     # NEW: this was how the old DMP had messages formatted (Playerhead - IconURL, Name - the death message)
     Author:
       # The message of the author
-      # The message of the author
       Name: '%message%'
       # The clickable link
       URL: ''
@@ -95,6 +94,8 @@ Discord:
     Title: 死亡信息
     Description: '%message%'
     Image: https://cravatar.eu/helmavatar/%username%
+    # Block title|Block value|inline boolean
+    # To have no content, set content to 'Content: []'
     Content:
     - '位置:|世界: %world%, X坐标: %x%, Y坐标: %y%, Z坐标: %z%|false'
     Footer:
